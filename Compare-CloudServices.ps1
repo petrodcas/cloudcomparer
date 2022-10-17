@@ -290,6 +290,14 @@ param (
     [Switch]$IncludeDescription,
     [Parameter(Mandatory, ParameterSetName="GetSolutionEquivalent")]
     [Switch]$FindEquivalent,
+    [Parameter(ParameterSetName="Default")]
+    [Parameter(ParameterSetName="GetPlatformDetails")]
+    [Parameter(ParameterSetName="GetPlatformServices")]
+    [Parameter(ParameterSetName="GetPlatformSolutions")]
+    [Parameter(ParameterSetName="GetServiceSolutions")]
+    [Parameter(ParameterSetName="GetSolutionEquivalent")]
+    [Parameter(ParameterSetName="GetSolutionDetail")]
+    [Parameter(ParameterSetName="GetCategoryServices")]
     [Switch]$Tablify
 )
 
@@ -401,10 +409,20 @@ function Get-SolutionEquivalents {
     )
     process {
         $input_details=Get-SolutionDetails -Solution "$Solution"
-        $in_service=$input_details.Service
-        $in_platform=$input_details.Platform
-
-        Get-SolutionsByService -Service "$in_service" -IncludeDescription:$IncludeDescription | Where-Object { "$($_.Platform)" -ne "$in_platform" }
+        if ($IncludeDescription) {
+            $input_details | ForEach-Object {
+                $in_service=$_.Service
+                $in_platform=$_.Platform
+                Get-SolutionsByService -Service "$in_service" -IncludeDescription:$IncludeDescription | Where-Object { "$($_.Platform)" -ne "$in_platform" }
+            } | Select-Object -Unique platform,solution,description
+        }
+        else {
+            $input_details | ForEach-Object {
+                $in_service=$_.Service
+                $in_platform=$_.Platform
+                Get-SolutionsByService -Service "$in_service" -IncludeDescription:$IncludeDescription | Where-Object { "$($_.Platform)" -ne "$in_platform" }
+            } | Select-Object -Unique platform,solution
+        }
     }
 }
 
@@ -462,7 +480,8 @@ switch ($usedParameterSet) {
         Get-SolutionEquivalents -Solution "$Solution" -IncludeDescription:$IncludeDescription | Format-AsTableIfNeeded
     }
     Default {
-        Write-Error "An error ocurred: Unknown query."
+        # Write-Error "An error ocurred: Unknown query."
+        Get-Content -Raw '.\clouds.csv' | ConvertFrom-Csv | Format-AsTableIfNeeded
     }
 }
 
