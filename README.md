@@ -9,7 +9,7 @@ This script is intended to be used as a tool to assist on studying cloud certifi
 It can compare different cloud services, filtering by categories and services. Also, it is possible to get the equivalent solutions
 in other platforms given an initial one.
 
-As an example, this call would output the equivalence solutions for "amazon simple storage service (s3)" in other platforms.
+As an example, this call would output the equivalent solutions for "amazon simple storage service (s3)" in other platforms.
 
 ```powershell7
 .\Compare-CloudServices.ps1 -Solution 'Amazon Simple Storage Service (S3)' -FindEquivalent
