@@ -1,0 +1,951 @@
+Category,Service,Platform,Solution,Description
+Compute,Shared Web hosting,AWS,AWS Amplify,https://aws.amazon.com/amplify/hosting/
+Compute,Shared Web hosting,Microsoft Azure,Web Apps,https://azure.microsoft.com/en-us/services/app-service/web/
+Compute,Shared Web hosting,Google Cloud Platform,Firebase,https://firebase.google.com/docs/hosting
+Compute,Shared Web hosting,IBM Cloud,Web hosting services,https://www.ibm.com/cloud/websites
+Compute,Shared Web hosting,Alibaba Cloud,Web Hosting,https://www.alibabacloud.com/product/hosting
+Compute,Shared Web hosting,Alibaba Cloud,Simple Application Server,https://www.alibabacloud.com/product/swas
+Compute,Virtual Server,AWS,Amazon EC2,https://aws.amazon.com/ec2/
+Compute,Virtual Server,Microsoft Azure,Azure Virtual Machine,https://docs.microsoft.com/azure/virtual-machines/
+Compute,Virtual Server,Google Cloud Platform,Compute Engine,https://cloud.google.com/compute/
+Compute,Virtual Server,IBM Cloud,Classic Virtual Server,https://cloud.ibm.com/docs/vsi?topic=virtual-servers-about-public-virtual-servers
+Compute,Virtual Server,IBM Cloud,Virtual Server for VPC (x86 & s390x),https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started
+Compute,Virtual Server,IBM Cloud,Power Systems Virtual Servers,https://cloud.ibm.com/docs/infrastructure/power-iaas?topic=power-iaas-about-power-virtual-server
+Compute,Virtual Server,IBM Cloud,Hyper Protect Virtual Server (LinuxONE),https://cloud.ibm.com/catalog/services/hyper-protect-virtual-server
+Compute,Virtual Server,IBM Cloud,Quantum Services,https://cloud.ibm.com/quantum
+Compute,Virtual Server,Oracle Cloud,Oracle Cloud Infrastructure Compute,,https://www.oracle.com/cloud/compute/
+Compute,Virtual Server,Alibaba Cloud,Alibaba ECS,https://www.alibabacloud.com/product/ecs
+Compute,Virtual Server,Huawei Cloud,Huawei Cloud Elastic Cloud Server,https://www.huaweicloud.com/intl/en-us/product/ecs.html
+Compute,Bare Metal Server,AWS,Amazon EC2 Bare Metal Instance,https://aws.amazon.com/blogs/aws/category/compute/amazon-ec2-bare-metal/
+Compute,Bare Metal Server,Microsoft Azure,Azure Bare Metal Servers (Large   Instance Only for SAP Hana),https://docs.microsoft.com/azure/virtual-machines/workloads/sap/hana-overview-architecture
+Compute,Bare Metal Server,Google Cloud Platform,Bare Metal Solution,https://cloud.google.com/bare-metal
+Compute,Bare Metal Server,IBM Cloud,Bare Metal Servers,https://www.ibm.com/cloud/bare-metal-servers
+Compute,Bare Metal Server,Oracle Cloud,Oracle Bare Metal Servers,https://www.oracle.com/cloud/compute/bare-metal.html
+Compute,Bare Metal Server,Alibaba Cloud,ECS Bare Metal Instance,https://www.alibabacloud.com/product/ebm
+Compute,Bare Metal Server,Huawei Cloud,Huawei Cloud Bare Metal Server,https://www.huaweicloud.com/intl/en-us/product/bms.html
+Compute,VMware,AWS,VMC on AWS,https://aws.amazon.com/vmware/
+Compute,VMware,Microsoft Azure,Azure VMware Solution,https://azure.microsoft.com/services/azure-vmware/
+Compute,VMware,Google Cloud Platform,Google Cloud VMware Engine,https://cloud.google.com/vmware-engine
+Compute,VMware,IBM Cloud,VMware Solutions Shared,https://cloud.ibm.com/infrastructure/vmware-solutions/console
+Compute,VMware,IBM Cloud,VMware Solutions Dedicated,https://cloud.ibm.com/infrastructure/vmware-solutions/console
+Compute,VMware,IBM Cloud,VMware Regulated Workloads,https://cloud.ibm.com/infrastructure/vmware-solutions/console
+Compute,VMware,IBM Cloud,VMware Solutions Dedicated - Security & Compliance Readiness Bundle,https://cloud.ibm.com/infrastructure/vmware-solutions/console
+Compute,VMware,Oracle Cloud,Oracle Cloud VMWare Solution,https://docs.oracle.com/en-us/iaas/Content/VMware/Concepts/ocvsoverview.htm
+Compute,Virtual Dedicated Host,AWS,Amazon EC2 Dedicated Hosts,https://aws.amazon.com/ec2/dedicated-hosts/
+Compute,Virtual Dedicated Host,AWS,AWS Nitro Enclaves,https://aws.amazon.com/ec2/nitro/nitro-enclaves/
+Compute,Virtual Dedicated Host,Microsoft Azure,Azure Dedicated Host,https://azure.microsoft.com/services/virtual-machines/dedicated-host/
+Compute,Virtual Dedicated Host,Google Cloud Platform,Sole Tenant Node (Beta),https://cloud.google.com/compute/docs/nodes/
+Compute,Virtual Dedicated Host,IBM Cloud,Dedicated Virtual Servers Infrastructure (VSi),https://cloud.ibm.com/docs/vsi?topic=virtual-servers-dedicated-virtual-servers
+Compute,Virtual Dedicated Host,IBM Cloud,Dedicated host for VPC,https://cloud.ibm.com/vpc-ext/provision/dedicatedHost
+Compute,Virtual Dedicated Host,Oracle Cloud,Dedicated Virtual Machine Hosts,https://docs.oracle.com/en-us/iaas/Content/Compute/Concepts/dedicatedvmhosts.htm
+Compute,Virtual Dedicated Host,Alibaba Cloud,Dedicated Host,https://www.alibabacloud.com/product/ddh
+Compute,Virtual Dedicated Host,Huawei Cloud,Huawei Cloud Dedicate Host,https://www.huaweicloud.com/intl/en-us/product/deh.html
+Compute,High Performance Computing,AWS,High Performance Computing,https://aws.amazon.com/hpc/
+Compute,High Performance Computing,AWS,AWS ParallelCluster,https://aws.amazon.com/hpc/parallelcluster/
+Compute,High Performance Computing,AWS,Elastic Fabric Adapter,https://aws.amazon.com/hpc/efa/
+Compute,High Performance Computing,AWS,NICE DCV,https://aws.amazon.com/hpc/dcv/
+Compute,High Performance Computing,Microsoft Azure,Azure High Performance Compute,https://azure.com/hpc/
+Compute,High Performance Computing,Google Cloud Platform,High performance computing,https://cloud.google.com/solutions/hpc
+Compute,High Performance Computing,IBM Cloud,IBM Spectrum LSF,https://cloud.ibm.com/catalog/content/terraform-1623200063-71606cab-c6e1-4f95-a47a-2ce541dcbed8-global
+Compute,High Performance Computing,IBM Cloud,IBM Spectrum Symphony,https://cloud.ibm.com/catalog/content/terraform-1627942334-78300480-b376-4185-9812-b7ae00d82765-global
+Compute,High Performance Computing,Oracle Cloud,Oracle Dedicated Virtual Machine Hosts,https://docs.oracle.com/en-us/iaas/Content/Compute/Concepts/dedicatedvmhosts.htm
+Compute,Container Registration Service,AWS,Amazon Elastic Container Registry (ECR),https://aws.amazon.com/ecr/
+Compute,Container Registration Service,Microsoft Azure,Azure Container Registry ,https://azure.microsoft.com/services/container-registry/
+Compute,Container Registration Service,Google Cloud Platform,Artifact Registry,https://cloud.google.com/artifact-registry/
+Compute,Container Registration Service,IBM Cloud,IBM Cloud Container Registry,https://www.ibm.com/cloud/container-registry
+Compute,Container Registration Service,Oracle Cloud,Oracle Cloud Infrastructure Registry,https://cloud.oracle.com/containers/registry
+Compute,Container Registration Service,Alibaba Cloud,Container Registry,https://www.alibabacloud.com/product/container-registry
+Compute,Container Registration Service,Huawei Cloud,Software Repository for Container,https://www.huaweicloud.com/intl/en-us/product/swr.html
+Compute,Container Management Service,AWS,Amazon Elastic Container Service (ECS),https://aws.amazon.com/ecs/
+Compute,Container Management Service,AWS,Amazon Elastic Kubernetes Service (EKS),https://aws.amazon.com/eks/
+Compute,Container Management Service,AWS,Red Hat Openshift on AWS,https://aws.amazon.com/rosa/
+Compute,Container Management Service,AWS,Bottlerocket,https://aws.amazon.com/bottlerocket/
+Compute,Container Management Service,Microsoft Azure,Azure Kubernetes Service (AKS),https://azure.microsoft.com/services/kubernetes-service/
+Compute,Container Management Service,Microsoft Azure,Azure Container Instances,https://azure.microsoft.com/services/container-instances/
+Compute,Container Management Service,Microsoft Azure,Azure Red Hat OpenShift,https://azure.microsoft.com/services/openshift/
+Compute,Container Management Service,Google Cloud Platform,Kubernetes Engine,https://cloud.google.com/kubernetes-engine/
+Compute,Container Management Service,IBM Cloud,IBM Cloud Kubernetes Service,https://www.ibm.com/cloud/container-service
+Compute,Container Management Service,IBM Cloud,Redhat Openshift Kubernetes Service,https://cloud.ibm.com/kubernetes/catalog/create?platformType=openshift
+Compute,Container Management Service,IBM Cloud,IBM Cloud Code Engine,https://cloud.ibm.com/codeengine
+Compute,Container Management Service,Oracle Cloud,Container Engine for Kubernetes (OKE),https://cloud.oracle.com/containers/kubernetes-engine
+Compute,Container Management Service,Alibaba Cloud,Container Service,https://www.alibabacloud.com/product/container-service
+Compute,Container Management Service,Alibaba Cloud,Container Service for Kubernetes,https://www.alibabacloud.com/product/kubernetes
+Compute,Container Management Service,Huawei Cloud,Cloud Container Instance,https://www.huaweicloud.com/product/cci.html
+Compute,Container Management Service,Huawei Cloud,Cloud Container Engine,https://www.huaweicloud.com/intl/en-us/product/cce.html
+Compute,Serverless compute for containers,AWS,AWS Fargate,https://aws.amazon.com/fargate/
+Compute,Serverless compute for containers,AWS,AWS Proton,https://aws.amazon.com/proton/
+Compute,Serverless compute for containers,Microsoft Azure,Azure Container Instances,https://azure.microsoft.com/services/container-instances/
+Compute,Serverless compute for containers,Microsoft Azure,Azure Container Apps,https://azure.microsoft.com/en-us/services/container-apps/
+Compute,Serverless compute for containers,Google Cloud Platform,Google Cloud Run,https://cloud.google.com/run
+Compute,Serverless compute for containers,IBM Cloud,IBM Cloud Code Engine,https://cloud.ibm.com/codeengine
+Compute,Serverless container platform,AWS,AWS App Runner,https://aws.amazon.com/apprunner/
+Compute,Serverless container platform,Microsoft Azure,Azure Container Apps,https://azure.microsoft.com/en-us/services/container-apps/
+Compute,Serverless container platform,Google Cloud Platform,Google Cloud Run,https://cloud.google.com/run
+Compute,Serverless container platform,IBM Cloud,IBM Cloud Code Engine,https://cloud.ibm.com/codeengine
+Compute,Serverless container platform,Oracle Cloud,Oracle Functions,https://docs.oracle.com/en-us/iaas/Content/Functions/Concepts/functionsoverview.htm
+Compute,Micro Services App Development Platform,AWS,AWS Lambda,https://aws.amazon.com/lambda/
+Compute,Micro Services App Development Platform,Microsoft Azure,Azure Service Fabric,https://azure.microsoft.com/services/service-fabric/
+Compute,Micro Services App Development Platform,Microsoft Azure,Azure Functions,https://azure.microsoft.com/services/functions/
+Compute,Micro Services App Development Platform,Microsoft Azure,Event Grid,https://azure.microsoft.com/services/event-grid/
+Compute,Micro Services App Development Platform,Google Cloud Platform,Google Cloud Functions,https://cloud.google.com/functions/
+Compute,Micro Services App Development Platform,Google Cloud Platform,EventArc,https://cloud.google.com/eventarc
+Compute,Micro Services App Development Platform,IBM Cloud,IBM Cloud Code Engine,https://cloud.ibm.com/codeengine
+Compute,Micro Services App Development Platform,IBM Cloud,IBM Cloud Functions,https://www.ibm.com/cloud/functions
+Compute,Micro Services App Development Platform,Oracle Cloud,Oracle Functions,https://www.oracle.com/cloud/cloud-native/functions/
+Compute,Micro Services App Development Platform,Alibaba Cloud,Function Compute,https://www.alibabacloud.com/product/function-compute
+Compute,Micro Services App Development Platform,Huawei Cloud,FunctionGraph,https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
+Compute,Serverless app repository,AWS,AWS Serverless Application Repository,
+Compute,Virtual Private Servers,AWS,Amazon Lightsail,https://amazonlightsail.com/
+Compute,Virtual Private Servers,Microsoft Azure,Azure App Service Environment,https://docs.microsoft.com/azure/app-service-web/app-service-app-service-environment-intro
+Compute,Virtual Private Servers,IBM Cloud,Classic Virtual Server,https://cloud.ibm.com/docs/vsi?topic=virtual-servers-about-public-virtual-servers
+Compute,Virtual Private Servers,IBM Cloud,Virtual Server for VPC,https://cloud.ibm.com/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started
+Compute,Virtual Private Servers,Alibaba Cloud,Simple Application Server,https://www.alibabacloud.com/product/swas#product-details
+Compute,Virtual Private Servers,Huawei Cloud,Hyper Elastic Cloud Server,https://www.huaweicloud.com/product/hecs.html
+Compute,Auto Scaling,AWS,Auto Scaling,https://aws.amazon.com/ec2/autoscaling/
+Compute,Auto Scaling,Microsoft Azure,Azure Autoscale,https://azure.microsoft.com/features/autoscale/
+Compute,Auto Scaling,Microsoft Azure,Virtual Machine Scale Sets,https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview
+Compute,Auto Scaling,Google Cloud Platform,Auto Scaler,https://cloud.google.com/compute/docs/autoscaler/
+Compute,Auto Scaling,IBM Cloud,Auto Scaling,https://www.ibm.com/cloud/auto-scaling
+Compute,Auto Scaling,Oracle Cloud,Oracle Autoscaling Instance Pools,https://docs.oracle.com/en-us/iaas/Content/Compute/Concepts/instancemanagement.htm
+Compute,Auto Scaling,Alibaba Cloud,Auto Scaling,https://www.alibabacloud.com/product/auto-scaling
+Compute,Auto Scaling,Huawei Cloud,Auto Scaling,https://www.huaweicloud.com/intl/en-us/product/as.html
+Compute,Batch Jobs,AWS,AWS Batch,https://aws.amazon.com/batch/
+Compute,Batch Jobs,Microsoft Azure,Azure Batch,https://azure.microsoft.com/services/batch/
+Compute,Batch Jobs,Google Cloud Platform,Preemptible VMs,https://cloud.google.com/preemptible-vms/
+Compute,Batch Jobs,IBM Cloud,IBM Cloud Code Engine,https://cloud.ibm.com/codeengine
+Compute,Batch Jobs,IBM Cloud,IBM Cloud Functions,https://www.ibm.com/cloud/functions
+Compute,Batch Jobs,Oracle Cloud,Oracle Burstable Instances,https://docs.oracle.com/en-us/iaas/Content/Compute/References/burstable-instances.htm
+Compute,Batch Jobs,Alibaba Cloud,Batch Compute,https://www.alibabacloud.com/product/batch-compute
+Compute,App Development/ Deployment (Java /.Net /PHP /Python),AWS,AWS Elastic Beanstalk,https://aws.amazon.com/elasticbeanstalk/
+Compute,App Development/ Deployment (Java /.Net /PHP /Python),Microsoft Azure,Azure Web Apps,https://azure.microsoft.com/services/app-service/web/
+Compute,App Development/ Deployment (Java /.Net /PHP /Python),Microsoft Azure,Azure Cloud Services,https://azure.microsoft.com/services/cloud-services/
+Compute,App Development/ Deployment (Java /.Net /PHP /Python),Google Cloud Platform,Google App engine,https://cloud.google.com/appengine/
+Compute,App Development/ Deployment (Java /.Net /PHP /Python),IBM Cloud,IBM Cloud Code Engine,https://cloud.ibm.com/codeengine
+Compute,App Development/ Deployment (Java /.Net /PHP /Python),IBM Cloud,Cloud Foundry Apps,https://www.ibm.com/cloud/cloud-foundry
+Compute,App Development/ Deployment (Java /.Net /PHP /Python),Oracle Cloud,Oracle Application Container Cloud Service,https://docs.oracle.com/en/cloud/paas/app-container-cloud/index.html
+Compute,App Development/ Deployment (Java /.Net /PHP /Python),Oracle Cloud,Java Cloud Service,https://cloud.oracle.com/en_US/java
+Compute,App Development/ Deployment (Java /.Net /PHP /Python),Alibaba Cloud,Enterprise Distributed Application Service,https://www.alibabacloud.com/product/edas
+Compute,Event Driven Computing,AWS,AWS Lambda,https://aws.amazon.com/lambda/
+Compute,Event Driven Computing,Microsoft Azure,Azure Functions,https://azure.microsoft.com/services/functions/
+Compute,Event Driven Computing,Microsoft Azure,Event Grid,https://azure.microsoft.com/services/event-grid/
+Compute,Event Driven Computing,Google Cloud Platform,Cloud Functions,https://cloud.google.com/functions/
+Compute,Event Driven Computing,Google Cloud Platform,EventArc,https://cloud.google.com/eventarc
+Compute,Event Driven Computing,IBM Cloud,IBM Cloud Code Engine,https://cloud.ibm.com/codeengine
+Compute,Event Driven Computing,IBM Cloud,IBM Cloud Functions,https://www.ibm.com/cloud/functions
+Compute,Event Driven Computing,Oracle Cloud,Oracle Functions,https://www.oracle.com/cloud-native/functions/
+Compute,Event Driven Computing,Alibaba Cloud,Function Compute,https://www.alibabacloud.com/product/function-compute
+Compute,Event Driven Computing,Huawei Cloud,FunctionGraph,https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
+Storage,Object Storage,AWS,Amazon Simple Storage Service (S3),https://aws.amazon.com/documentation/s3/
+Storage,Object Storage,Microsoft Azure,Azure Blob Storage,https://azure.microsoft.com/services/storage/blobs/
+Storage,Object Storage,Google Cloud Platform,Cloud Storage,https://cloud.google.com/storage/
+Storage,Object Storage,IBM Cloud,Cloud Object Storage,https://cloud.ibm.com/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage
+Storage,Object Storage,Oracle Cloud,Oracle Cloud Infrastructure Object Storage,https://www.oracle.com/cloud/storage/object-storage.html
+Storage,Object Storage,Alibaba Cloud,Object Storage Service,https://www.alibabacloud.com/product/oss
+Storage,Object Storage,Huawei Cloud,Object Storage Service,https://www.huaweicloud.com/intl/en-us/product/obs.html
+Storage,Virtual Machine Disk Storage,AWS,Amazon Elastic Block Storage (EBS),https://aws.amazon.com/ebs/
+Storage,Virtual Machine Disk Storage,Microsoft Azure,Azure Page Blobs / Premium Storage,https://azure.microsoft.com/services/storage/disks/
+Storage,Virtual Machine Disk Storage,Microsoft Azure,Managed Disks,https://azure.microsoft.com/services/managed-disks/
+Storage,Virtual Machine Disk Storage,Google Cloud Platform,Persistent Disk,https://cloud.google.com/persistent-disk/
+Storage,Virtual Machine Disk Storage,IBM Cloud,Block Storage,https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-About#getting-started-with-block-storage
+Storage,Virtual Machine Disk Storage,IBM Cloud,Block Storage for VPC,https://cloud.ibm.com/docs/vpc-on-classic-block-storage?topic=vpc-on-classic-block-storage-getting-started
+Storage,Virtual Machine Disk Storage,Oracle Cloud,Oracle Cloud Infrastructure Block Volumes,https://www.oracle.com/cloud/storage/block-volumes.html
+Storage,Virtual Machine Disk Storage,Alibaba Cloud,Block Storage,
+Storage,Virtual Machine Disk Storage,Huawei Cloud,Elastic Volume Service,https://www.huaweicloud.com/intl/en-us/product/evs.html
+Storage,File Storage (SMB Compatible),AWS,Amazon Elastic File System (EFS),https://aws.amazon.com/efs/
+Storage,File Storage (SMB Compatible),AWS,Amazon FSx for Windows File Server,https://aws.amazon.com/fsx/windows/
+Storage,File Storage (SMB Compatible),AWS,Amazon FSx for Lustre,https://aws.amazon.com/fsx/lustre/
+Storage,File Storage (SMB Compatible),AWS,Amazon FSx for NetApp ONTAP,https://aws.amazon.com/fsx/netapp-ontap/
+Storage,File Storage (SMB Compatible),AWS,Amazon FSx for OpenZFS,https://aws.amazon.com/fsx/openzfs/
+Storage,File Storage (SMB Compatible),Microsoft Azure,Azure Files,https://azure.microsoft.com/en-us/services/storage/files/
+Storage,File Storage (SMB Compatible),Microsoft Azure,Azure NetApp Files,https://azure.microsoft.com/en-gb/services/netapp/
+Storage,File Storage (SMB Compatible),Google Cloud Platform,File Store,http://cloud.google.com/filestore
+Storage,File Storage (SMB Compatible),IBM Cloud,File Storage,https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-about#getting-started-with-file-storage
+Storage,File Storage (SMB Compatible),Oracle Cloud,Oracle File Storage Services,https://docs.oracle.com/en-us/iaas/Content/File/Concepts/filestorageoverview.htm
+Storage,File Storage (SMB Compatible),Alibaba Cloud,NAS File Storage,https://www.alibabacloud.com/product/nas
+Storage,File Storage (SMB Compatible),Huawei Cloud,Scalable File Service,https://www.huaweicloud.com/intl/en-us/product/sfs.html
+Storage,Long Term Cold Storage,AWS,Amazon S3 Glacier,https://aws.amazon.com/s3/storage-classes/glacier/
+Storage,Long Term Cold Storage,Microsoft Azure,Azure Archive Storage,https://azure.microsoft.com/services/storage/archive/
+Storage,Long Term Cold Storage,Microsoft Azure,Azure Cool Storage,https://azure.microsoft.com/pricing/details/storage/blobs/
+Storage,Long Term Cold Storage,Google Cloud Platform,Cloud Storage,https://cloud.google.com/storage/
+Storage,Long Term Cold Storage,IBM Cloud,Object Storage-ColdVault,https://www.ibm.com/cloud/object-storage
+Storage,Long Term Cold Storage,IBM Cloud,Archive,https://cloud.ibm.com/docs/infrastructure/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-archiving-data
+Storage,Long Term Cold Storage,Oracle Cloud,Oracle Cloud Infrastructure Archive Storage,https://www.oracle.com/cloud/storage/archive-storage.html
+Storage,Long Term Cold Storage,Oracle Cloud,Oracle Cloud Object Storage Infrequent Access Tier,https://docs.oracle.com/en-us/iaas/Content/Object/Concepts/understandingstoragetiers.htm
+Storage,Long Term Cold Storage,Alibaba Cloud,Object Storage Archive,https://www.alibabacloud.com/product/oss
+Storage,Long Term Cold Storage,Huawei Cloud,Object Storage Service,https://www.huaweicloud.com/intl/en-us/product/obs.html
+Storage,Hybrid Storage/Storage Gateway,AWS,AWS Storage Gateway,https://aws.amazon.com/storagegateway
+Storage,Hybrid Storage/Storage Gateway,Microsoft Azure,Azure Storsimple,https://azure.microsoft.com/services/storsimple/
+Storage,Hybrid Storage/Storage Gateway,Oracle Cloud,Oracle Cloud Infrastructure Storage Gateway,https://www.oracle.com/cloud/storage/storage-gateway.html
+Storage,Hybrid Storage/Storage Gateway,Alibaba Cloud,Hybrid Cloud Storage Array,https://www.alibabacloud.com/product/storage-array
+Storage,Hybrid Storage/Storage Gateway,Huawei Cloud,Cloud Storage Gateway,https://www.huaweicloud.com/product/csg.html
+Database,Relational Database Management Service,AWS,Amazon Aurora,https://aws.amazon.com/rds/aurora/
+Database,Relational Database Management Service,AWS,Amazon RDS,https://aws.amazon.com/rds/
+Database,Relational Database Management Service,Microsoft Azure,Azure SQL Database,https://azure.microsoft.com/services/sql-database/
+Database,Relational Database Management Service,Microsoft Azure,SQL Server Stretch Database,https://azure.microsoft.com/services/sql-server-stretch-database/
+Database,Relational Database Management Service,Microsoft Azure,Azure Database for MySQL,https://azure.microsoft.com/services/mysql/
+Database,Relational Database Management Service,Microsoft Azure,Azure Database for PostgresSQL,https://azure.microsoft.com/services/postgresql/
+Database,Relational Database Management Service,Microsoft Azure,Azure SQL Database Edge,https://azure.microsoft.com/services/sql-database-edge/
+Database,Relational Database Management Service,Google Cloud Platform,Cloud SQL,https://cloud.google.com/sql/
+Database,Relational Database Management Service,Google Cloud Platform,Cloud Spanner,https://cloud.google.com/spanner/
+Database,Relational Database Management Service,IBM Cloud,Db2,https://cloud.ibm.com/catalog/services/db2
+Database,Relational Database Management Service,IBM Cloud,Db2 Hosted,https://cloud.ibm.com/catalog/services/db2-hosted
+Database,Relational Database Management Service,IBM Cloud,Informix,https://cloud.ibm.com/catalog/services/informix
+Database,Relational Database Management Service,IBM Cloud,Databases for PostgreSQL,https://cloud.ibm.com/catalog/services/databases-for-postgresql
+Database,Relational Database Management Service,IBM Cloud,Databases for EDB,https://cloud.ibm.com/databases/databases-for-enterprisedb/create
+Database,Relational Database Management Service,IBM Cloud,Compose for MySQL(Beta),https://cloud.ibm.com/catalog/services/compose-for-mysql
+Database,Relational Database Management Service,IBM Cloud,Databases for MySQL,https://cloud.ibm.com/databases/databases-for-mysql/create
+Database,Relational Database Management Service,IBM Cloud,Hyper Protect DBaaS for PostgreSQL,https://cloud.ibm.com/catalog/services/hyper-protect-dbaas-for-postgresql
+Database,Relational Database Management Service,Oracle Cloud,Oracle Database Cloud Service - Virtual Machine,https://www.oracle.com/database/vm-cloud.html
+Database,Relational Database Management Service,Oracle Cloud,Oracle Database Cloud Service - Bare Metal,https://www.oracle.com/database/bare-metal-cloud.html
+Database,Relational Database Management Service,Oracle Cloud,Oracle Exadata Cloud Service,https://www.oracle.com/engineered-systems/exadata/cloud-service/
+Database,Relational Database Management Service,Oracle Cloud,Oracle Autonomous Data Warehouse,https://www.oracle.com/autonomous-database/autonomous-data-warehouse/
+Database,Relational Database Management Service,Oracle Cloud,Oracle Autonomous Transaction Processing,https://www.oracle.com/autonomous-database/autonomous-transaction-processing/
+Database,Relational Database Management Service,Oracle Cloud,MySQL Database Service,https://www.oracle.com/mysql/
+Database,Relational Database Management Service,Oracle Cloud,MySQL Heatwave Service,https://docs.oracle.com/en-us/iaas/mysql-database/doc/heatwave.html
+Database,Relational Database Management Service,Alibaba Cloud,ApsaraDB for RDS MYSQL,https://www.alibabacloud.com/product/apsaradb-for-rds/
+Database,Relational Database Management Service,Alibaba Cloud,ApsaraDB for RDS SQL Server,https://www.alibabacloud.com/product/apsaradb-for-rds/
+Database,Relational Database Management Service,Alibaba Cloud,ApsaraDB for RDS PostgreSQL,https://www.alibabacloud.com/product/apsaradb-for-rds/
+Database,Relational Database Management Service,Alibaba Cloud,Distributed Relational Database Service (DRDS) ,https://www.alibabacloud.com/product/drds?spm=a3c0i.11270126.675768.dnavproductsd7.6c8668dcRLNbeB
+Database,Relational Database Management Service,Huawei Cloud,GaussDB(for openGauss),https://www.huaweicloud.com/intl/en-us/product/gaussdb.html
+Database,Relational Database Management Service,Huawei Cloud,none.png,https://www.huaweicloud.com/intl/en-us/product/gaussdb_mysql.html
+Database,Relational Database Management Service,Huawei Cloud,RDS for MySQL,https://www.huaweicloud.com/intl/en-us/product/mysql.html
+Database,Relational Database Management Service,Huawei Cloud,RDS for PostgreSQL,https://www.huaweicloud.com/intl/en-us/product/pg.html
+Database,Non Relational Database Management Service,AWS,Amazon DynamoDB,https://aws.amazon.com/dynamodb/
+Database,Non Relational Database Management Service,AWS,Amazon DynamoDB Accelerator (DAX),https://aws.amazon.com/dynamodb/dax/
+Database,Non Relational Database Management Service,AWS,Amazon DocumentDB (with MongoDB compatibility),https://aws.amazon.com/documentdb/
+Database,Non Relational Database Management Service,AWS,Amazon Keyspaces (Apache Cassandra),https://aws.amazon.com/keyspaces/
+Database,Non Relational Database Management Service,Microsoft Azure,Azure CosmosDB,https://docs.microsoft.com/azure/cosmos-db/
+Database,Non Relational Database Management Service,Microsoft Azure,Table Storage,https://azure.microsoft.com/services/storage/tables/
+Database,Non Relational Database Management Service,Microsoft Azure,Azure Time Series Insights,https://azure.microsoft.com/services/time-series-insights/
+Database,Non Relational Database Management Service,Google Cloud Platform,Cloud Datastore,https://cloud.google.com/datastore/
+Database,Non Relational Database Management Service,Google Cloud Platform,Cloud Firestore,https://cloud.google.com/firestore/
+Database,Non Relational Database Management Service,IBM Cloud,Cloudant NoSQL DB,https://cloud.ibm.com/docs/services/Cloudant?topic=cloudant-overview
+Database,Non Relational Database Management Service,IBM Cloud,Compose for JanusGraph,https://cloud.ibm.com/docs/services/ComposeForJanusGraph?topic=compose-for-janusgraph-about-compose-for-janusgraph
+Database,Non Relational Database Management Service,IBM Cloud,Databases for MongoDB,https://cloud.ibm.com/catalog/services/databases-for-mongodb
+Database,Non Relational Database Management Service,IBM Cloud,Databases for etcd,https://cloud.ibm.com/databases/databases-for-etcd/create
+Database,Non Relational Database Management Service,IBM Cloud,Databases for DataStax,https://cloud.ibm.com/databases/databases-for-cassandra/create
+Database,Non Relational Database Management Service,IBM Cloud,Hyper Protect DBaaS for MongoDB,https://cloud.ibm.com/catalog/services/hyper-protect-dbaas-for-mongodb
+Database,Non Relational Database Management Service,Oracle Cloud,Oracle NoSQL Database Cloud Service,https://www.oracle.com/database/nosql-cloud.html
+Database,Non Relational Database Management Service,Oracle Cloud,Oracle Autonomous JSON Database,https://www.oracle.com/autonomous-database/autonomous-json-database/
+Database,Non Relational Database Management Service,Alibaba Cloud,Apsaradb for Mongodb,https://www.alibabacloud.com/product/apsaradb-for-mongodb
+Database,Non Relational Database Management Service,Alibaba Cloud,Table Store,https://www.alibabacloud.com/product/table-store
+Database,Non Relational Database Management Service,Huawei Cloud,GaussDB(for Mongo),https://www.huaweicloud.com/intl/en-us/product/gaussdbformongo.html
+Database,Non Relational Database Management Service,Huawei Cloud,GaussDB(for Cassandra),https://www.huaweicloud.com/intl/en-us/product/gaussdbforcassandra.html
+Database,Non Relational Database Management Service,Huawei Cloud,Document Database Service,https://www.huaweicloud.com/intl/en-us/product/dds.html
+Database,Non Relational Database Management Service,Huawei Cloud,Graph Engine Service,https://www.huaweicloud.com/intl/en-us/product/ges.html
+Database,Timeseries Database,AWS,Amazon Timestream,https://aws.amazon.com/timestream/
+Database,Timeseries Database,Microsoft Azure,Azure Time Series Insights,https://azure.microsoft.com/services/time-series-insights/
+Database,Timeseries Database,Google Cloud Platform,Cloud Bigtable,https://cloud.google.com/Bigtable/
+Database,Timeseries Database,IBM Cloud,Informix,https://www.ibm.com/analytics/informix
+Database,Timeseries Database,Alibaba Cloud,HiTSDB (High-Performance Time Series Database),https://www.alibabacloud.com/product/hitsdb?spm=a3c0i.11270126.675768.dnavproductsd8.6c8668dcRLNbeB
+Database,Timeseries Database,Alibaba Cloud,Time Series Database for InfluxDB,https://www.alibabacloud.com/product/hitsdb_influxdb
+Database,Timeseries Database,Huawei Cloud,GaussDB(for Influx),https://www.huaweicloud.com/intl/en-us/product/gaussdbforinflux.html
+Database,Graph Database,AWS,Amazon Neptune,https://aws.amazon.com/neptune/
+Database,Graph Database,IBM Cloud,IBM Graph,https://www.ibm.com/analytics/ca/en/technology/cloud-data-services/graph/
+Database,Graph Database,Oracle Cloud,Graph Database,https://www.oracle.com/database/graph/
+Database,Graph Database,Alibaba Cloud,GraphDB (GDB) (Coming Soon...),https://www.alibabacloud.com/product/databases
+Database,Graph Database,Huawei Cloud,FunctionGraph,https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
+Database,Graph Database,Huawei Cloud,Graph Engine Service (GES),https://www.huaweicloud.com/intl/en-us/product/ges.html
+Database,In-Memory Data Store,AWS,Amazon ElastiCache,https://aws.amazon.com/elasticache/
+Database,In-Memory Data Store,AWS,Amazon MemoryDB for Redis,https://aws.amazon.com/memorydb/
+Database,In-Memory Data Store,Microsoft Azure,Azure Cache for Redis,https://azure.microsoft.com/en-us/services/cache/
+Database,In-Memory Data Store,Google Cloud Platform,Cloud MemoryStore,https://cloud.google.com/memorystore/
+Database,In-Memory Data Store,IBM Cloud,Databases for Redis,https://cloud.ibm.com/catalog/services/databases-for-redis
+Database,In-Memory Data Store,Alibaba Cloud,ApsaraDB for Redis,https://www.alibabacloud.com/product/apsaradb-for-redis
+Database,In-Memory Data Store,Huawei Cloud,GaussDB(for Redis),https://www.huaweicloud.com/intl/en-us/product/gaussdbforredis.html
+Database,In-Memory Data Store,Huawei Cloud,Distributed Cache Service for Redis,https://www.huaweicloud.com/intl/en-us/product/dcs.html
+Database,Data Warehousing,AWS,Amazon Redshift,https://aws.amazon.com/redshift/
+Database,Data Warehousing,Microsoft Azure,Azure Synapse Analytics,https://azure.microsoft.com/services/synapse-analytics/
+Database,Data Warehousing,Google Cloud Platform,BigQuery,https://cloud.google.com/bigquery/
+Database,Data Warehousing,IBM Cloud,Db2 Warehouse,https://cloud.ibm.com/catalog/services/db2-warehouse
+Database,Data Warehousing,Oracle Cloud,Exadata Cloud Service,http://www.oracle.com/us/corporate/features/exadata-service/index.html
+Database,Data Warehousing,Oracle Cloud,Autonomous Data Warehouse Cloud,https://cloud.oracle.com/en_US/datawarehouse/features
+Database,Data Warehousing,Alibaba Cloud,Alibaba MaxCompute ODPS,https://www.alibabacloud.com/product/maxcompute
+Database,Data Warehousing,Huawei Cloud,GaussDB(DWS),https://www.huaweicloud.com/intl/en-us/product/dws.html
+Migration Services,Database Migration Services,AWS,AWS Database Migration Service,https://aws.amazon.com/dms/
+Migration Services,Database Migration Services,AWS,AWS Migration Hub,https://aws.amazon.com/migration-hub/
+Migration Services,Database Migration Services,Microsoft Azure,Azure Database Migration Service,https://azure.microsoft.com/en-us/services/database-migration/
+Migration Services,Database Migration Services,Google Cloud Platform,Database Migration Service,https://cloud.google.com/database-migration
+Migration Services,Database Migration Services,IBM Cloud,Lift CLI,https://www.lift-cli.cloud.ibm.com/#docs
+Migration Services,Database Migration Services,IBM Cloud,VPC+ Cloud Migration,https://cloud.ibm.com/catalog/services/vpc-cloud-migration
+Migration Services,Database Migration Services,IBM Cloud,Rackware RMM,https://cloud.ibm.com/catalog/content/Rackware-Golden-Template-1.11-06545490-596b-4133-8516-8425a11b3265-global
+Migration Services,Database Migration Services,Oracle Cloud,Oracle Lift Services,https://www.oracle.com/cloud/cloud-lift/
+Migration Services,Database Migration Services,Alibaba Cloud,Data Transmission Service,https://www.alibabacloud.com/product/data-transmission-service
+Migration Services,Database Migration Services,Huawei Cloud,Data Replication Service(DRS),https://www.huaweicloud.com/intl/en-us/product/drs.html
+Migration Services,Server Migration Services,AWS,AWS Server Migration Service,https://aws.amazon.com/server-migration-service/
+Migration Services,Server Migration Services,AWS,AWS Application Migration Service,https://aws.amazon.com/application-migration-service/
+Migration Services,Server Migration Services,AWS,AWS Migration Hub,https://aws.amazon.com/migration-hub/
+Migration Services,Server Migration Services,Microsoft Azure,Site Recovery,https://docs.microsoft.com/azure/site-recovery/site-recovery-migrate-to-azure
+Migration Services,Server Migration Services,Microsoft Azure,Azure App Service migration,https://azure.microsoft.com/en-us/services/app-service/migration-tools/
+Migration Services,Server Migration Services,Google Cloud Platform,Migrate for Compute Engine,https://cloud.google.com/migrate/compute-engine
+Migration Services,Server Migration Services,Google Cloud Platform,Migrate to Containers,https://cloud.google.com/migrate/containers
+Migration Services,Server Migration Services,Google Cloud Platform,Application Migration,https://cloud.google.com/solutions/application-migration
+Migration Services,Server Migration Services,IBM Cloud,VPC+ Cloud Migration,https://cloud.ibm.com/catalog/services/vpc-cloud-migration
+Migration Services,Server Migration Services,IBM Cloud,Rackware RMM,https://cloud.ibm.com/catalog/content/Rackware-Golden-Template-1.11-06545490-596b-4133-8516-8425a11b3265-global
+Migration Services,Server Migration Services,Alibaba Cloud,Cloud Migration Tool,https://www.alibabacloud.com/help/doc-detail/62394.htm
+Migration Services,Server Migration Services,Huawei Cloud,Server Migration Service,https://www.huaweicloud.com/intl/en-us/product/sms.html
+Migration Services,Small Scale Data Transfer Service,AWS,AWS Snowball,https://aws.amazon.com/snowball
+Migration Services,Small Scale Data Transfer Service,AWS,AWS Transfer Family,https://aws.amazon.com/aws-transfer-family/
+Migration Services,Small Scale Data Transfer Service,Microsoft Azure,Azure Import/Export,https://azure.microsoft.com/pricing/details/storage-import-export/
+Migration Services,Small Scale Data Transfer Service,Google Cloud Platform,Storage Transfer Service,https://cloud.google.com/storage-transfer-service
+Migration Services,Small Scale Data Transfer Service,IBM Cloud,Data Transfer Service,https://cloud.ibm.com/docs/infrastructure/DataTransferService?topic=DataTransferService-about
+Migration Services,Small Scale Data Transfer Service,IBM Cloud,Aspera High-speed Transfer,https://cloud.ibm.com/docs/services/cloud-object-storage?topic=cloud-object-storage-aspera
+Migration Services,Small Scale Data Transfer Service,Oracle Cloud,Data Transfer Services - Hard Disk Import,https://www.oracle.com/cloud/storage/data-transfer.html
+Migration Services,Small Scale Data Transfer Service,Huawei Cloud,Data Express Service - Disk,https://www.huaweicloud.com/intl/en-us/product/des.html
+Migration Services,Large Scale Data Transfer Solution (Petabyte Scale),AWS,AWS Snowball,https://aws.amazon.com/snowball/
+Migration Services,Large Scale Data Transfer Solution (Petabyte Scale),AWS,AWS DataSync,https://aws.amazon.com/datasync/
+Migration Services,Large Scale Data Transfer Solution (Petabyte Scale),Microsoft Azure,Azure Data Box,https://azure.microsoft.com/en-us/services/databox/
+Migration Services,Large Scale Data Transfer Solution (Petabyte Scale),Google Cloud Platform,Transfer Appliance,https://cloud.google.com/transfer-appliance/
+Migration Services,Large Scale Data Transfer Solution (Petabyte Scale),IBM Cloud,Mass Data Migration Service,https://cloud.ibm.com/docs/infrastructure/mass-data-migration?topic=mass-data-migration-about
+Migration Services,Large Scale Data Transfer Solution (Petabyte Scale),Oracle Cloud,Data Transfer Services - Storage applicance import,https://www.oracle.com/cloud/storage/data-transfer.html
+Migration Services,Large Scale Data Transfer Solution (Petabyte Scale),Alibaba Cloud,Data Transport,https://www.alibabacloud.com/product/data-transport
+Migration Services,Large Scale Data Transfer Solution (Terabyte Scale),AWS,AWS Snowcone,https://aws.amazon.com/snowcone/
+Migration Services,Large Scale Data Transfer Solution (Terabyte Scale),AWS,AWS Snowball Edge Compute Optimized,https://aws.amazon.com/snowball/
+Migration Services,Large Scale Data Transfer Solution (Terabyte Scale),AWS,AWS DataSync,https://aws.amazon.com/datasync/
+Migration Services,Large Scale Data Transfer Solution (Terabyte Scale),Microsoft Azure,Azure Data Box,https://azure.microsoft.com/en-us/services/databox/
+Migration Services,Large Scale Data Transfer Solution (Terabyte Scale),Google Cloud Platform,Transfer Appliance,https://cloud.google.com/transfer-appliance/
+Migration Services,Large Scale Data Transfer Solution (Terabyte Scale),IBM Cloud,Mass Data Migration Service,https://cloud.ibm.com/docs/infrastructure/mass-data-migration?topic=mass-data-migration-about
+Migration Services,Large Scale Data Transfer Solution (Terabyte Scale),Oracle Cloud,Data Transfer Services - Storage applicance import,https://cloud.oracle.com/en_US/storage/data-transfer-services/features
+Migration Services,Large Scale Data Transfer Solution (Terabyte Scale),Alibaba Cloud,Data Transport,https://www.alibabacloud.com/product/data-transport
+Migration Services,Large Scale Data Transfer Solution (Terabyte Scale),Huawei Cloud,Data Express Service - Teleport,https://www.huaweicloud.com/intl/en-us/product/des.html
+Migration Services,Large Scale Data Transfer Solution (Exabyte Scale),AWS,AWS Snowmobile,https://aws.amazon.com/snowmobile/
+Migration Services,Large Scale Data Transfer Solution (Exabyte Scale),Oracle Cloud,Data Transfer Services,https://www.oracle.com/cloud/storage/data-transfer.html
+Application Discovery Services,Application Discovery Services,AWS,Application Discovery Service,https://aws.amazon.com/application-discovery/
+Application Discovery Services,Application Discovery Services,Microsoft Azure,Azure Active Directory,https://docs.microsoft.com/azure/active-directory/manage-apps/cloud-app-discovery
+Networking & Content Delivery,Virtual Networking,AWS,Amazon VPC,https://aws.amazon.com/vpc/
+Networking & Content Delivery,Virtual Networking,Microsoft Azure,Azure VNet,https://azure.microsoft.com/services/virtual-network/
+Networking & Content Delivery,Virtual Networking,Google Cloud Platform,Virtual Private Cloud,https://cloud.google.com/vpc
+Networking & Content Delivery,Virtual Networking,IBM Cloud,IBM Cloud VPC,https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started
+Networking & Content Delivery,Virtual Networking,Oracle Cloud,Oracle Virtual Cloud Network,https://cloud.oracle.com/networking
+Networking & Content Delivery,Virtual Networking,Alibaba Cloud,Virtual Private Cloud,https://www.alibabacloud.com/product/vpc
+Networking & Content Delivery,Virtual Networking,Huawei Cloud,Virtual Private Cloud,https://www.huaweicloud.com/intl/en-us/product/vpc.html
+Networking & Content Delivery,Virtual network connectivity,AWS,AWS Transit Gateway,https://aws.amazon.com/transit-gateway/
+Networking & Content Delivery,Virtual network connectivity,AWS,AWS VPC peering,https://docs.aws.amazon.com/vpc/latest/userguide/vpc-peering.html
+Networking & Content Delivery,Virtual network connectivity,Microsoft Azure,Azure VNet Peering,https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview
+Networking & Content Delivery,Virtual network connectivity,Google Cloud Platform,Google VPC Peering,https://cloud.google.com/vpc/docs/vpc-peering/
+Networking & Content Delivery,Virtual network connectivity,IBM Cloud,Transit Gateway,https://cloud.ibm.com/interconnectivity/transit/provision
+Networking & Content Delivery,Virtual network connectivity,Oracle Cloud,Oracle Dynamic Routing Gateway,https://docs.oracle.com/en-us/iaas/Content/Network/Tasks/managingDRGs.htm
+Networking & Content Delivery,Network Gateway,AWS,AWS Site-to-Site VPN,https://aws.amazon.com/vpn/site-to-site-vpn/
+Networking & Content Delivery,Network Gateway,AWS,AWS Client VPN,https://aws.amazon.com/vpn/client-vpn/
+Networking & Content Delivery,Network Gateway,Microsoft Azure,Azure VPN Gateway,https://azure.microsoft.com/pricing/details/vpn-gateway/
+Networking & Content Delivery,Network Gateway,Google Cloud Platform,Cloud VPN,https://cloud.google.com/products/networking/
+Networking & Content Delivery,Network Gateway,IBM Cloud,Classic IPSEC-VPN,https://cloud.ibm.com/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn
+Networking & Content Delivery,Network Gateway,IBM Cloud,VPN gateway for VPC,https://cloud.ibm.com/docs/vpc-on-classic-network?topic=vpc-on-classic-network---using-vpn-with-your-vpc
+Networking & Content Delivery,Network Gateway,Oracle Cloud,Oracle VPN Connect,https://www.oracle.com/cloud/networking/vpn-connect.html
+Networking & Content Delivery,Network Gateway,Alibaba Cloud,VPN Gateway,https://www.alibabacloud.com/product/vpn-gateway
+Networking & Content Delivery,Network Gateway,Huawei Cloud,Virtual Private Network,https://www.huaweicloud.com/intl/en-us/product/vpn.html
+Networking & Content Delivery,Content Delivery Network,AWS,Amazon CloudFront,https://aws.amazon.com/documentation/elastic-beanstalk/
+Networking & Content Delivery,Content Delivery Network,Microsoft Azure,Azure CDN,https://azure.microsoft.com/services/cdn/
+Networking & Content Delivery,Content Delivery Network,Microsoft Azure,Azure Front Door,https://azure.microsoft.com/services/frontdoor/#overview
+Networking & Content Delivery,Content Delivery Network,Google Cloud Platform,Cloud CDN,https://cloud.google.com/cdn/
+Networking & Content Delivery,Content Delivery Network,IBM Cloud,Content Delivery Network,https://cloud.ibm.com/docs/infrastructure/CDN?topic=CDN-about-content-delivery-networks-cdn-
+Networking & Content Delivery,Content Delivery Network,Alibaba Cloud,Alibaba Content Delivery Network,https://www.alibabacloud.com/product/cdn
+Networking & Content Delivery,Content Delivery Network,Huawei Cloud,Huawei Cloud CDN,https://www.huaweicloud.com/intl/en-us/product/cdn.html
+Networking,Networking & Content Delivery,AWS,Amazon Route 53,https://aws.amazon.com/route53/
+Networking,Networking & Content Delivery,Microsoft Azure,Azure DNS,https://azure.microsoft.com/services/dns/
+Networking,Networking & Content Delivery,Google Cloud Platform,Cloud DNS,https://cloud.google.com/dns/
+Networking,Networking & Content Delivery,IBM Cloud,Internet Services,https://cloud.ibm.com/docs/infrastructure/cis?topic=cis-about-ibm-cloud-internet-services-cis
+Networking,Networking & Content Delivery,IBM Cloud,DNS Services,https://cloud.ibm.com/catalog/services/dns-services
+Networking,Networking & Content Delivery,Oracle Cloud,Oracle DNS,https://www.oracle.com/cloud/networking/dns/
+Networking,Networking & Content Delivery,Alibaba Cloud,Alibaba Cloud DNS,https://www.alibabacloud.com/product/dns
+Networking,Networking & Content Delivery,Huawei Cloud,Domain Name Service,https://www.huaweicloud.com/intl/en-us/product/dns.html
+Networking,Global Traffic Management,AWS,Amazon Route 53 Traffic Flow,https://aws.amazon.com/blogs/aws/new-route-53-traffic-flow/
+Networking,Global Traffic Management,AWS,AWS Global Accelerator,https://aws.amazon.com/global-accelerator/
+Networking,Global Traffic Management,AWS,AWS App Mesh,https://aws.amazon.com/app-mesh/
+Networking,Global Traffic Management,Microsoft Azure,Azure Traffic Manager,https://azure.microsoft.com/services/traffic-manager/
+Networking,Global Traffic Management,IBM Cloud,Internet Services,https://cloud.ibm.com/docs/infrastructure/cis?topic=cis-about-ibm-cloud-internet-services-cis
+Networking,Global Traffic Management,Oracle Cloud,Oracle Cloud Infrastructure Traffic Management,https://www.oracle.com/cloud/networking/traffic-management.html
+Networking,Global Traffic Management,Huawei Cloud,Domain Name Service,https://www.huaweicloud.com/intl/en-us/product/dns.html
+Hybrid Cloud,Hybrid Cloud,AWS,AWS Outposts,https://aws.amazon.com/outposts/
+Hybrid Cloud,Hybrid Cloud,Microsoft Azure,Azure Arc,https://azure.microsoft.com/services/azure-arc/
+Hybrid Cloud,Hybrid Cloud,Google Cloud Platform,Google Anthos,https://cloud.google.com/anthos
+Hybrid Cloud,Hybrid Cloud,IBM Cloud,Satellite,https://cloud.ibm.com/docs/satellite?topic=satellite-getting-started
+Hybrid Cloud,Hybrid Cloud,IBM Cloud,Secure Gateway,https://cloud.ibm.com/catalog/services/secure-gateway
+Hybrid Cloud,Hybrid Cloud,Oracle Cloud,Oracle Exadata Cloud@Customer,https://www.oracle.com/engineered-systems/exadata/cloud-at-customer/
+Hybrid Cloud,Hybrid Cloud,Oracle Cloud,Oracle Roving Edge Infrastructure,https://www.oracle.com/cloud/roving-edge-infrastructure/
+Hybrid Cloud,Hybrid Cloud,Huawei Cloud,Huawei Cloud CLOUD Stack,https://www.huaweicloud.com/intl/en-us/product/huaweicloudstack.html
+Networking & Content Delivery,Private Connectivity,AWS,AWS Direct Connect,https://aws.amazon.com/directconnect/
+Networking & Content Delivery,Private Connectivity,AWS,AWS Private Link,https://aws.amazon.com/about-aws/whats-new/2018/04/introducing-aws-privatelink-in-the-eu-paris-region/
+Networking & Content Delivery,Private Connectivity,Microsoft Azure,Azure Express Route,https://azure.microsoft.com/services/expressroute/
+Networking & Content Delivery,Private Connectivity,Google Cloud Platform,Cloud Hybrid Connectivity,https://cloud.google.com/hybrid-connectivity
+Networking & Content Delivery,Private Connectivity,IBM Cloud,Direct Link,https://cloud.ibm.com/docs/infrastructure/direct-link?topic=direct-link-overview-of-direct-link-offerings
+Networking & Content Delivery,Private Connectivity,Oracle Cloud,Oracle Cloud Infrastructure FastConnect,https://www.oracle.com/cloud/networking/fastconnect/
+Networking & Content Delivery,Private Connectivity,Alibaba Cloud,Express Connect,https://www.alibabacloud.com/product/express-connect
+Networking & Content Delivery,Private Connectivity,Huawei Cloud,Direct Connect,https://www.huaweicloud.com/intl/en-us/product/dc.html
+Networking & Content Delivery,Load Balancers,AWS,Elastic Load Balancing,https://aws.amazon.com/elasticloadbalancing/
+Networking & Content Delivery,Load Balancers,Microsoft Azure,Azure Load Balancer,https://azure.microsoft.com/services/load-balancer/
+Networking & Content Delivery,Load Balancers,Google Cloud Platform,Cloud Load Balancing,https://cloud.google.com/load-balancing/
+Networking & Content Delivery,Load Balancers,IBM Cloud,IBM Cloud Load Balancers,https://cloud.ibm.com/docs/vpc?topic=vpc-nlb-vs-elb
+Networking & Content Delivery,Load Balancers,IBM Cloud,IBM Cloud Load Balancer for VPC,https://cloud.ibm.com/catalog/infrastructure/load-balancer-group
+Networking & Content Delivery,Load Balancers,IBM Cloud,Citrix NetScaler VPX,https://cloud.ibm.com/catalog/infrastructure/load-balancer-group
+Networking & Content Delivery,Load Balancers,Oracle Cloud,Oracle Cloud Infrastructure Load Balancing,https://www.oracle.com/cloud/networking/load-balancing/
+Networking & Content Delivery,Load Balancers,Alibaba Cloud,Server Load Balancer,https://www.alibabacloud.com/product/server-load-balancer
+Networking & Content Delivery,Load Balancers,Huawei Cloud,Elastic Load Balance,https://www.huaweicloud.com/intl/en-us/product/elb.html
+Developer Tools,Cloud Software Development Kit,AWS,AWS Cloud9,https://aws.amazon.com/cloud9/
+Developer Tools,Cloud Software Development Kit,AWS,AWS Code Star,https://aws.amazon.com/codestar/
+Developer Tools,Cloud Software Development Kit,AWS,AWS CodeCommit,https://aws.amazon.com/codecommit/
+Developer Tools,Cloud Software Development Kit,AWS,AWS CodeBuild,https://aws.amazon.com/codebuild/
+Developer Tools,Cloud Software Development Kit,AWS,AWS CodeDeploy,https://aws.amazon.com/codedeploy/
+Developer Tools,Cloud Software Development Kit,AWS,AWS CodePipeline,https://aws.amazon.com/codepipeline
+Developer Tools,Cloud Software Development Kit,AWS,AWS X-Ray,https://aws.amazon.com/xray/
+Developer Tools,Cloud Software Development Kit,AWS,Amazon DevOps Guru,https://aws.amazon.com/devops-guru/
+Developer Tools,Cloud Software Development Kit,AWS,Amazon CodeGuru,https://aws.amazon.com/codeguru/
+Developer Tools,Cloud Software Development Kit,AWS,AWS Fault Injection Simulator,https://aws.amazon.com/fis/
+Developer Tools,Cloud Software Development Kit,Microsoft Azure,Azure Boards,https://azure.microsoft.com/services/devops/boards/
+Developer Tools,Cloud Software Development Kit,Microsoft Azure,Azure Pipelines,https://azure.microsoft.com/services/devops/pipelines/
+Developer Tools,Cloud Software Development Kit,Microsoft Azure,Azure Repos,https://azure.microsoft.com/services/devops/repos/
+Developer Tools,Cloud Software Development Kit,Microsoft Azure,Azure Test Plans,https://azure.microsoft.com/services/devops/test-plans/
+Developer Tools,Cloud Software Development Kit,Microsoft Azure,Azure Artifacts,https://azure.microsoft.com/services/devops/artifacts/
+Developer Tools,Cloud Software Development Kit,Google Cloud Platform,Cloud Source Repositories,https://cloud.google.com/source-repositories/
+Developer Tools,Cloud Software Development Kit,IBM Cloud,Continuous Delivery,https://cloud.ibm.com/docs/services/ContinuousDelivery?topic=ContinuousDelivery-getting-started
+Developer Tools,Cloud Software Development Kit,IBM Cloud,DevOps Insights,https://cloud.ibm.com/docs/services/DevOpsInsights?topic=DevOpsInsights-getting-started#getting-started
+Developer Tools,Cloud Software Development Kit,IBM Cloud,Globalization Pipeline,https://cloud.ibm.com/docs/services/GlobalizationPipeline?topic=GlobalizationPipeline-globalizationpipeline#globalizationpipeline
+Developer Tools,Cloud Software Development Kit,Oracle Cloud,Oracle Visual Builder Studio,https://www.oracle.com/application-development/visual-builder-studio/
+Developer Tools,Cloud Software Development Kit,Huawei Cloud,DevStar,https://developer.huaweicloud.com/resource/devstar.html
+Developer Tools,Cloud Software Development Kit,AWS,AWS Tools & SDKs,https://aws.amazon.com/tools/
+Developer Tools,Cloud Software Development Kit,AWS,AWS Cloud Development Kit,https://aws.amazon.com/cdk/
+Developer Tools,Cloud Software Development Kit,Microsoft Azure,Azure SDK Visual Studio,https://www.visualstudio.com/team-services/
+Developer Tools,Cloud Software Development Kit,Google Cloud Platform,Cloud SDK Cloud Tools for IntelliJ,
+Developer Tools,Cloud Software Development Kit,Google Cloud Platform,Cloud Tools for Android Studio,
+Developer Tools,Cloud Software Development Kit,Google Cloud Platform,Cloud Tools for Powershell,
+Developer Tools,Cloud Software Development Kit,Google Cloud Platform,Google Plugin for Eclipse,
+Developer Tools,Cloud Software Development Kit,IBM Cloud,IBM Cloud Developer Tool,https://marketplace.visualstudio.com/items?itemName=IBM.ibm-developer
+Developer Tools,Cloud Software Development Kit,IBM Cloud,Continuous Delivery,https://cloud.ibm.com/docs/services/ContinuousDelivery?topic=ContinuousDelivery-getting-started
+Developer Tools,Cloud Software Development Kit,Oracle Cloud,Oracle API Catalog,https://www.oracle.com/middleware/technologies/api-catalog.html
+Developer Tools,Cloud Software Development Kit,Oracle Cloud,Toolkit for Eclipse,https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/eclipsetoolkit.htm
+Developer Tools,Cloud Software Development Kit,Oracle Cloud,Oracle Developer Tools for Visual Studio,https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/visualstudio_intro.htm#Oracle_Developer_Tools_for_Visual_Studio
+Developer Tools,Cloud Software Development Kit,Huawei Cloud,HUAWEI CLOUD SDKs,https://developer.huaweicloud.com/intl/en-us/sdk?all
+Management Tools,Server Management Services,AWS,Amazon EC2 Systems Manager,https://aws.amazon.com/documentation/elastic-beanstalk/
+Management Tools,Server Management Services,Microsoft Azure,Azure Operational Insights ,https://azure.microsoft.com/resources/videos/azure-operational-insights-overview/
+Management Tools,Server Management Services,Oracle Cloud,Oracle Management Cloud,https://cloud.oracle.com/management
+Management Tools,Cloud Deployment Templates/ Infra as Code,AWS,AWS CloudFormation,https://aws.amazon.com/cloudformation/
+Management Tools,Cloud Deployment Templates/ Infra as Code,AWS,AWS OpsWorks,https://aws.amazon.com/opsworks/
+Management Tools,Cloud Deployment Templates/ Infra as Code,Microsoft Azure,Azure Resource Manager,https://azure.microsoft.com/features/resource-manager/
+Management Tools,Cloud Deployment Templates/ Infra as Code,Microsoft Azure,Azure Building Blocks,https://azure.microsoft.com/resources/videos/azure-building-blocks-20-azbb/
+Management Tools,Cloud Deployment Templates/ Infra as Code,Google Cloud Platform,Cloud Resource Manager,https://cloud.google.com/resource-manager/
+Management Tools,Cloud Deployment Templates/ Infra as Code,Google Cloud Platform,Cloud Deployment Manager,https://cloud.google.com/deployment-manager/
+Management Tools,Cloud Deployment Templates/ Infra as Code,IBM Cloud,Schematics,https://cloud.ibm.com/docs/schematics?topic=schematics-about-schematics
+Management Tools,Cloud Deployment Templates/ Infra as Code,Oracle Cloud,Oracle Resource Manager,https://www.oracle.com/devops/resource-manager/
+Management Tools,Cloud Deployment Templates/ Infra as Code,Alibaba Cloud,Resource Orchestration Service,https://www.alibabacloud.com/product/ros
+Management Tools,Logging & Monitoring,AWS,Amazon CloudWatch,https://aws.amazon.com/cloudwatch/
+Management Tools,Logging & Monitoring,AWS,AWS CloudTrail,https://aws.amazon.com/cloudtrail/
+Management Tools,Logging & Monitoring,AWS,AWS X-Ray,https://aws.amazon.com/xray/
+Management Tools,Logging & Monitoring,AWS,AWS Distro for OpenTelemetry (Preview),https://aws.amazon.com/otel/
+Management Tools,Logging & Monitoring,AWS,Amazon Managed Service for Grafana (Preview),https://aws.amazon.com/grafana/
+Management Tools,Logging & Monitoring,AWS,Amazon Managed Service for Prometheus (Preview),https://aws.amazon.com/prometheus/
+Management Tools,Logging & Monitoring,Microsoft Azure,Log Analytics,https://azure.microsoft.com/services/log-analytics/
+Management Tools,Logging & Monitoring,Microsoft Azure,Azure portal,https://portal.azure.com/#
+Management Tools,Logging & Monitoring,Microsoft Azure,Application Insights,https://azure.microsoft.com/services/application-insights/
+Management Tools,Logging & Monitoring,Google Cloud Platform,Google StackDriver,https://cloud.google.com/stackdriver/
+Management Tools,Logging & Monitoring,Google Cloud Platform,Monitoring,https://cloud.google.com/monitoring/
+Management Tools,Logging & Monitoring,Google Cloud Platform,Logging,https://cloud.google.com/logging/
+Management Tools,Logging & Monitoring,Google Cloud Platform,Error Reporting,https://cloud.google.com/error-reporting/
+Management Tools,Logging & Monitoring,Google Cloud Platform,Trace,https://cloud.google.com/trace/
+Management Tools,Logging & Monitoring,Google Cloud Platform,Debugger,https://cloud.google.com/debugger/
+Management Tools,Logging & Monitoring,IBM Cloud,Monitoring,https://cloud.ibm.com/catalog/services/monitoring
+Management Tools,Logging & Monitoring,IBM Cloud,IBM Cloud Log Analysis with LogDNA,https://www.ibm.com/cloud/log-analysis
+Management Tools,Logging & Monitoring,IBM Cloud,IBM Cloud Activity Tracker with LogDNA,https://www.ibm.com/cloud/blog/track-your-cloud-activities-using-ibm-cloud-activity-tracker-with-logdna
+Management Tools,Logging & Monitoring,IBM Cloud,IBM Cloud Monitoring with Sysdig,https://www.ibm.com/cloud/sysdig
+Management Tools,Logging & Monitoring,Oracle Cloud,Oracle Cloud Infrastructure Logging,https://www.oracle.com/devops/logging/
+Management Tools,Logging & Monitoring,Oracle Cloud,Oracle Logging Analytics,https://www.oracle.com/manageability/logging-analytics/
+Management Tools,Logging & Monitoring,Oracle Cloud,Oracle Cloud Infrastructure Monitoring,https://www.oracle.com/devops/monitoring/
+Management Tools,Logging & Monitoring,Oracle Cloud,Application Performance Monitoring (limited availability),
+Management Tools,Logging & Monitoring,Oracle Cloud,Oracle Service Connector Hub,https://www.oracle.com/devops/service-connector-hub/
+Management Tools,Logging & Monitoring,Oracle Cloud,Management Cloud,
+Management Tools,Logging & Monitoring,Alibaba Cloud,CloudMonitor,https://www.alibabacloud.com/product/cloud-monitor
+Management Tools,Logging & Monitoring,Alibaba Cloud,ActionTrail,https://www.alibabacloud.com/product/actiontrail
+Management Tools,Logging & Monitoring,Alibaba Cloud,Application Real-Time Monitoring Service,https://www.alibabacloud.com/product/arms
+Management Tools,Logging & Monitoring,Huawei Cloud,LTS,https://www.huaweicloud.com/intl/en-us/product/lts.html
+Management Tools,Logging & Monitoring,Huawei Cloud,AOM,https://www.huaweicloud.com/intl/en-us/product/aom.html
+Management Tools,Logging & Monitoring,Huawei Cloud,CES,https://www.huaweicloud.com/intl/en-us/product/ces.html
+Management Tools,Resource / Configuration Inventory,AWS,AWS Config,https://aws.amazon.com/config/
+Management Tools,Resource / Configuration Inventory,AWS,AWS License Manager,https://aws.amazon.com/license-manager/
+Management Tools,Resource / Configuration Inventory,Microsoft Azure,Azure portal (audit logs),
+Management Tools,Resource / Configuration Inventory,Google Cloud Platform,Cloud Security Scanner,
+Management Tools,Resource / Configuration Inventory,Google Cloud Platform,Cloud Data Loss Prevention Api,https://cloud.google.com/dlp/
+Management Tools,Resource / Configuration Inventory,Google Cloud Platform,Access Transparency (Beta),https://cloud.google.com/access-transparency/
+Management Tools,Resource / Configuration Inventory,IBM Cloud,App Configuration,https://cloud.ibm.com/catalog/services/app-configuration
+Management Tools,Resource / Configuration Inventory,Oracle Cloud,Oracle Cloud Governance Services,https://cloud.oracle.com/en_US/governance
+Management Tools,Resource / Configuration Inventory,Alibaba Cloud,Alibaba Log Service,https://www.alibabacloud.com/product/log-service
+Management Tools,Server Automation,AWS,AWS OpsWorks,https://aws.amazon.com/opsworks/
+Management Tools,Server Automation,Microsoft Azure,Resource Manager,https://azure.microsoft.com/features/resource-manager/
+Management Tools,Server Automation,Microsoft Azure,Azure Automation,https://docs.microsoft.com/azure/automation/
+Management Tools,Server Automation,Microsoft Azure,VM Extentions,https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-extensions-features
+Management Tools,Server Automation,Oracle Cloud,Oracle Cloud Infrastructure OS Management,https://docs.oracle.com/en-us/iaas/os-management/osms/index.htm
+Management Tools,Server Automation,Oracle Cloud,Oracle Resource Manager,https://www.oracle.com/devops/resource-manager/
+Management Tools,Server Automation,Alibaba Cloud,Resource Orchestration Service ,https://www.alibabacloud.com/product/ros
+Management Tools,Server Automation,AWS,AWS Service Catalog,https://aws.amazon.com/servicecatalog/
+Management Tools,Cloud Cost / Performance / Security Advisor,AWS,AWS Trusted Advisor,https://aws.amazon.com/premiumsupport/trustedadvisor/
+Management Tools,Cloud Cost / Performance / Security Advisor,AWS,AWS Well-Architected Tool,https://aws.amazon.com/well-architected-tool/
+Management Tools,Cloud Cost / Performance / Security Advisor,AWS,AWS Cost Management,https://aws.amazon.com/aws-cost-management/
+Management Tools,Cloud Cost / Performance / Security Advisor,AWS,AWS Cost Explorer,https://aws.amazon.com/aws-cost-management/aws-cost-explorer/
+Management Tools,Cloud Cost / Performance / Security Advisor,AWS,AWS Compute Optimizer,https://aws.amazon.com/compute-optimizer/
+Management Tools,Cloud Cost / Performance / Security Advisor,Microsoft Azure,Azure Advisor,https://azure.microsoft.com/services/advisor/
+Management Tools,Cloud Cost / Performance / Security Advisor,Microsoft Azure,Azure Cost Management,https://azure.microsoft.com/services/cost-management/
+Management Tools,Cloud Cost / Performance / Security Advisor,Google Cloud Platform,Google Cloud Platform Security,https://cloud.google.com/security/
+Management Tools,Cloud Cost / Performance / Security Advisor,Oracle Cloud,Oracle Cloud Guard,https://www.oracle.com/security/cloud-security/cloud-guard/
+Management Tools,Cloud Cost / Performance / Security Advisor,Oracle Cloud,Oracle Cloud Advisor,https://blogs.oracle.com/cloud-infrastructure/now-available-oracle-cloud-advisor
+Management Tools,Cloud Cost / Performance / Security Advisor,Huawei Cloud,Cost Management,https://support.huaweicloud.com/intl/en-us/usermanual-cost/costcenter_0000001.html
+Management Tools,Alerts and Remediation guidance Service,AWS,AWS Personal Health Dashboard,https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard/
+Management Tools,Alerts and Remediation guidance Service,AWS,Amazon CloudWatch,https://aws.amazon.com/cloudwatch/
+Management Tools,Alerts and Remediation guidance Service,AWS,AWS Security Hub,https://aws.amazon.com/security-hub/
+Management Tools,Alerts and Remediation guidance Service,AWS,AWS Audit Manager,https://aws.amazon.com/audit-manager/
+Management Tools,Alerts and Remediation guidance Service,Microsoft Azure,Azure Monitor,https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-azure-monitor
+Management Tools,Alerts and Remediation guidance Service,Microsoft Azure,Azure Operations Management Suite (OMS),https://www.microsoft.com/cloud-platform/operations-management-suite
+Management Tools,Alerts and Remediation guidance Service,Oracle Cloud,Oracle Management Cloud,https://cloud.oracle.com/en_US/management
+Management Tools,Alerts and Remediation guidance Service,Oracle Cloud,Oracle Cloud Guard,https://www.oracle.com/security/cloud-security/cloud-guard/
+Management Tools,Alerts and Remediation guidance Service,Oracle Cloud,Oracle Security Advisor,https://docs.oracle.com/en-us/iaas/Content/SecurityAdvisor/Concepts/securityadvisoroverview.htm
+Management Tools,Alerts and Remediation guidance Service,Alibaba Cloud,Cloud monitoring, Notification and Alerts,https://www.alibabacloud.com/product/cloud-monitor
+Management Tools,Cloud Management Tools,AWS,AWS Command Line Interface,https://aws.amazon.com/cli/
+Management Tools,Cloud Management Tools,AWS,AWS CloudShell,https://aws.amazon.com/cloudshell/
+Management Tools,Cloud Management Tools,AWS,AWS Management Console,https://aws.amazon.com/console/
+Management Tools,Cloud Management Tools,AWS,AWS Console Mobile Application,https://aws.amazon.com/console/mobile/
+Management Tools,Cloud Management Tools,AWS,AWS Tools & SDKs,https://aws.amazon.com/tools/
+Management Tools,Cloud Management Tools,Microsoft Azure,Azure Command Line Interface,
+Management Tools,Cloud Management Tools,Microsoft Azure,Azure Powershell,https://docs.microsoft.com/powershell/azure/overview?view=azurermps-6.3.0
+Management Tools,Cloud Management Tools,Microsoft Azure,Azure Management Console,
+Management Tools,Cloud Management Tools,Microsoft Azure,Azure Cloud Shell,https://azure.microsoft.com/features/cloud-shell/
+Management Tools,Cloud Management Tools,Google Cloud Platform,Cloud Shell,https://cloud.google.com/shell/
+Management Tools,Cloud Management Tools,Google Cloud Platform,Cloud Console,https://cloud.google.com/cloud-console/
+Management Tools,Cloud Management Tools,Google Cloud Platform,Billing API,https://cloud.google.com/billing/docs/
+Management Tools,Cloud Management Tools,Google Cloud Platform,Cloud APIs,https://cloud.google.com/apis/
+Management Tools,Cloud Management Tools,IBM Cloud,IBM Bare Metal Servers,https://www.ibm.com/cloud/cli
+Management Tools,Cloud Management Tools,Oracle Cloud,OCI CLI,https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cliconcepts.htm
+Management Tools,Cloud Management Tools,Oracle Cloud,Oracle Cloud Shell,https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellintro.htm
+Management Tools,Cloud Management Tools,Oracle Cloud,Oracle Management Console,
+Management Tools,Cloud Management Tools,Oracle Cloud,REST API,https://docs.oracle.com/en-us/iaas/api/
+Management Tools,Cloud Management Tools,Alibaba Cloud,Alibaba Cloud CLI,https://www.alibabacloud.com/help/doc-detail/66653.htm
+Management Tools,Cloud Management Tools,Huawei Cloud,Open APIs,https://developer.huaweicloud.com/intl/en-us/openapilist
+Management Tools,Cloud Management Tools,Huawei Cloud,API Explorer,https://apiexplorer.developer.huaweicloud.com/apiexplorer/overview
+Management Tools,Cloud Management Tools,Huawei Cloud,HCloud CLI,https://support.huaweicloud.com/productdesc-hcli/hcli_01.html
+Management Tools,Cloud Management Tools,Huawei Cloud,Terraform Explorer,https://terraform.developer.huaweicloud.com/terraform/overview
+Management Tools,Cloud Management Tools,Huawei Cloud,CloudShell,https://shell.huaweicloud.com/
+Management Tools,Automated Infra Management Services,AWS,AWS Managed Services,https://aws.amazon.com/managed-services/
+Disaster Recovery Services,Automated Disaster Recovery Services,AWS,AWS Disaster Recovery,https://aws.amazon.com/disaster-recovery/
+Disaster Recovery Services,Automated Disaster Recovery Services,AWS,AWS Backup,https://aws.amazon.com/backint-agent/
+Disaster Recovery Services,Automated Disaster Recovery Services,Microsoft Azure,Azure Site Recovery,https://azure.microsoft.com/services/site-recovery/
+Disaster Recovery Services,Automated Disaster Recovery Services,Microsoft Azure,Azure Backup,https://azure.microsoft.com/services/backup/
+Disaster Recovery Services,Automated Disaster Recovery Services,Oracle Cloud,Oracle Database Backup,https://cloud.oracle.com/en_US/database-backup/features
+Disaster Recovery Services,Automated Disaster Recovery Services,Alibaba Cloud,Alibaba Disaster Recovery,https://www.alibabacloud.com/solutions/hosting/Disaster-Recovery
+Disaster Recovery Services,Automated Disaster Recovery Services,Alibaba Cloud,Hybrid Backup Recovery,https://www.alibabacloud.com/product/hbr
+Security & Identity, Compliance,Identity & Access Management,AWS,AWS Identity and Access Management (IAM),https://aws.amazon.com/documentation/iam/
+Security & Identity, Compliance,Identity & Access Management,Microsoft Azure,Azure Active Directory,https://azure.microsoft.com/services/active-directory/
+Security & Identity, Compliance,Identity & Access Management,Google Cloud Platform,Cloud IAM,https://cloud.google.com/iam/
+Security & Identity, Compliance,Identity & Access Management,Google Cloud Platform,Cloud Identity-Aware Proxy,https://cloud.google.com/iap/
+Security & Identity, Compliance,Identity & Access Management,IBM Cloud,Identity & Access Management,https://cloud.ibm.com/docs/iam?topic=iam-iamoverview
+Security & Identity, Compliance,Identity & Access Management,Oracle Cloud,Oracle Identity and Access Management (IAM),https://www.oracle.com/security/identity-management/
+Security & Identity, Compliance,Identity & Access Management,Oracle Cloud,Oracle Identity Cloud Service,https://www.oracle.com/security/cloud-security/identity-cloud/
+Security & Identity, Compliance,Identity & Access Management,Alibaba Cloud,Resource Access Management        ,https://www.alibabacloud.com/product/ram
+Security & Identity, Compliance,Identity & Access Management,Huawei Cloud,Identity and Access Management,https://www.huaweicloud.com/intl/en-us/s/JUlBTSU
+Security & Identity, Compliance,Cloud Security Assesment Service,AWS,Amazon Inspector,https://aws.amazon.com/inspector/
+Security & Identity, Compliance,Cloud Security Assesment Service,AWS,Guard Duty,https://aws.amazon.com/guardduty/
+Security & Identity, Compliance,Cloud Security Assesment Service,Microsoft Azure,Azure Security Center,https://azure.microsoft.com/services/security-center/
+Security & Identity, Compliance,Cloud Security Assesment Service,IBM Cloud,Security and Compliance Center,https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started
+Security & Identity, Compliance,Cloud Security Assesment Service,Oracle Cloud,Oracle Security Advisor,https://docs.oracle.com/en-us/iaas/Content/SecurityAdvisor/Concepts/securityadvisoroverview.htm
+Security & Identity, Compliance,Cloud Security Assesment Service,Oracle Cloud,Oracle Cloud Guard,https://www.oracle.com/security/cloud-security/cloud-guard/
+Security & Identity, Compliance,Secured Socket Layer (SSL) Certificates,AWS,AWS Certificate Manager,https://aws.amazon.com/certificate-manager/
+Security & Identity, Compliance,Secured Socket Layer (SSL) Certificates,Microsoft Azure,App Service Certificate,https://azure.microsoft.com/updates/introducing-app-service-certificates/
+Security & Identity, Compliance,Secured Socket Layer (SSL) Certificates,IBM Cloud,Secrets Manager,https://cloud.ibm.com/catalog/services/secrets-manager
+Security & Identity, Compliance,Secured Socket Layer (SSL) Certificates,Alibaba Cloud,SSL Certificates,https://www.alibabacloud.com/product/certificates
+Security & Identity, Compliance,Secured Socket Layer (SSL) Certificates,Huawei Cloud,SSL Certificate Manager,https://www.huaweicloud.com/intl/en-us/product/scm.html
+Security & Identity, Compliance,Hardware Based Security Module,AWS,AWS CloudHSM,https://aws.amazon.com/cloudhsm/
+Security & Identity, Compliance,Hardware Based Security Module,AWS,AWS Secrets Manager,https://aws.amazon.com/secrets-manager/
+Security & Identity, Compliance,Hardware Based Security Module,Microsoft Azure,Azure Key Vault,https://azure.microsoft.com/services/key-vault/
+Security & Identity, Compliance,Hardware Based Security Module,Google Cloud Platform,Cloud Key Management Service,https://cloud.google.com/kms/
+Security & Identity, Compliance,Hardware Based Security Module,IBM Cloud,Key Protect,https://cloud.ibm.com/catalog/services/key-protect
+Security & Identity, Compliance,Hardware Based Security Module,IBM Cloud,Cloud HSM,https://cloud.ibm.com/catalog/infrastructure/hardware-security-module
+Security & Identity, Compliance,Hardware Based Security Module,IBM Cloud,Hyper Protect Crypto Services,https://cloud.ibm.com/catalog/services/hyper-protect-crypto-services
+Security & Identity, Compliance,Hardware Based Security Module,Oracle Cloud,Oracle Cloud Infrastructure Vault,https://www.oracle.com/security/cloud-security/key-management/
+Security & Identity, Compliance,Hardware Based Security Module,Alibaba Cloud,Key Management Service,https://www.alibabacloud.com/product/key-management-service
+Security & Identity, Compliance,Directory Services,AWS,AWS Directory Service,https://aws.amazon.com/directoryservice/
+Security & Identity, Compliance,Directory Services,Microsoft Azure,Azure Active Directory,https://azure.microsoft.com/services/active-directory/
+Security & Identity, Compliance,Directory Services,Microsoft Azure,Azure Active Directory B2C,https://azure.microsoft.com/services/active-directory-b2c/
+Security & Identity, Compliance,Directory Services,Microsoft Azure,Azure Active Directory Domain Services,https://azure.microsoft.com/services/active-directory-ds/
+Security & Identity, Compliance,Directory Services,Microsoft Azure,Azure Active Directory Multi Factor Authentication,https://azure.microsoft.com/services/multi-factor-authentication/
+Security & Identity, Compliance,Directory Services,Google Cloud Platform,Cloud IAM,https://cloud.google.com/iam/
+Security & Identity, Compliance,Directory Services,Google Cloud Platform,Cloud Identity-Aware Proxy,https://cloud.google.com/iap/
+Security & Identity, Compliance,Directory Services,Google Cloud Platform,Security Key Enforcement,https://cloud.google.com/security-key/
+Security & Identity, Compliance,Directory Services,IBM Cloud,App ID,https://cloud.ibm.com/catalog/services/app-id
+Security & Identity, Compliance,Directory Services,Oracle Cloud,Oracle Directory Services,https://www.oracle.com/security/identity-management/directory-services/
+Security & Identity, Compliance,Directory Services,Alibaba Cloud,Resource Access Management,https://www.alibabacloud.com/help/doc-detail/96239.htm
+Security & Identity, Compliance,Key Management Services,AWS,AWS Key Management Service,
+Security & Identity, Compliance,Key Management Services,Microsoft Azure,Azure Key Vault,https://azure.microsoft.com/services/key-vault/
+Security & Identity, Compliance,Key Management Services,Google Cloud Platform,Cloud Key Management Service,https://cloud.google.com/kms/
+Security & Identity, Compliance,Key Management Services,IBM Cloud,Key Protect,https://cloud.ibm.com/catalog/services/key-protect
+Security & Identity, Compliance,Key Management Services,IBM Cloud,Cloud HSM,https://cloud.ibm.com/catalog/infrastructure/hardware-security-module
+Security & Identity, Compliance,Key Management Services,IBM Cloud,Hyper Protect Crypto Services,https://cloud.ibm.com/catalog/services/hyper-protect-crypto-services
+Security & Identity, Compliance,Key Management Services,Oracle Cloud,Oracle Cloud Infrastructure Vault,https://www.oracle.com/security/cloud-security/key-management/
+Security & Identity, Compliance,Key Management Services,Alibaba Cloud,Key Management Service ,https://www.alibabacloud.com/product/key-management-service
+Security & Identity, Compliance,Key Management Services,Huawei Cloud,Data Encryption Workshop,https://www.huaweicloud.com/intl/en-us/product/dew.html
+Security & Identity, Compliance,Consolidated Management of Multiple Cloud Accounts,AWS,AWS Organizations,https://aws.amazon.com/organizations/
+Security & Identity, Compliance,Consolidated Management of Multiple Cloud Accounts,AWS,AWS Control Tower,https://aws.amazon.com/controltower/
+Security & Identity, Compliance,Consolidated Management of Multiple Cloud Accounts,AWS,AWS Resource Access Manager,https://aws.amazon.com/ram/
+Security & Identity, Compliance,Consolidated Management of Multiple Cloud Accounts,Microsoft Azure,Azure Management Groups,https://docs.microsoft.com/azure/azure-resource-manager/management-groups-overview
+Security & Identity, Compliance,Consolidated Management of Multiple Cloud Accounts,IBM Cloud,Resource Group,https://cloud.ibm.com/docs/overview?topic=overview-whatis-rgs
+Security & Identity, Compliance,Consolidated Management of Multiple Cloud Accounts,IBM Cloud,Enterprise,https://cloud.ibm.com/enterprise
+Security & Identity, Compliance,DDos Protection Service,AWS,AWS Shield,https://aws.amazon.com/shield/
+Security & Identity, Compliance,DDos Protection Service,Microsoft Azure,Azure DDoS Protection,https://azure.microsoft.com/services/ddos-protection/
+Security & Identity, Compliance,DDos Protection Service,Google Cloud Platform,Cloud Armor (Beta),https://cloud.google.com/armor/
+Security & Identity, Compliance,DDos Protection Service,IBM Cloud,Internet Services,https://cloud.ibm.com/docs/infrastructure/cis?topic=cis-about-ibm-cloud-internet-services-cis
+Security & Identity, Compliance,DDos Protection Service,Oracle Cloud,Oracle DDoS Protection,https://docs.oracle.com/en-us/iaas/Content/EdgeServices/overview.htm
+Security & Identity, Compliance,DDos Protection Service,Alibaba Cloud,DDOS Pro and Basic,https://www.alibabacloud.com/product/ddos-pro
+Security & Identity, Compliance,DDos Protection Service,Huawei Cloud,Advanced Anti-DDoS,https://www.huaweicloud.com/intl/en-us/product/aad.html
+Security & Identity, Compliance,Web Application Firewall,AWS,AWS WAF,https://aws.amazon.com/waf/
+Security & Identity, Compliance,Web Application Firewall,Microsoft Azure,Azure WAF,
+Security & Identity, Compliance,Web Application Firewall,IBM Cloud,Internet Services,https://cloud.ibm.com/docs/infrastructure/cis?topic=cis-about-ibm-cloud-internet-services-cis
+Security & Identity, Compliance,Web Application Firewall,Oracle Cloud,Oracle Web Application Firewall,https://www.oracle.com/cloud/security/cloud-services/web-application-firewall.html
+Security & Identity, Compliance,Web Application Firewall,Alibaba Cloud,Web Application Firewall,https://www.alibabacloud.com/product/waf
+Security & Identity, Compliance,Web Application Firewall,Huawei Cloud,Web Application Firewall,https://www.huaweicloud.com/intl/en-us/product/waf.html
+Security & Identity, Compliance,Security & Compliance Service,AWS,AWS Firewall Manager,https://aws.amazon.com/firewall-manager/
+Security & Identity, Compliance,Security & Compliance Service,AWS,AWS Network Firewall,https://aws.amazon.com/network-firewall/
+Security & Identity, Compliance,Security & Compliance Service,Microsoft Azure,Azure Firewall Manager,https://azure.microsoft.com/services/firewall-manager/
+Security & Identity, Compliance,Security & Compliance Service,IBM Cloud,Security and Compliance Center,https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started
+Security & Identity, Compliance,Security & Compliance Service,Huawei Cloud,Security Compliance,https://www.huaweicloud.com/intl/en-us/securecenter/safetycompliance.html
+Security & Identity, Compliance,Security & Compliance Service,AWS,AWS Artifact,https://aws.amazon.com/artifact/
+Security & Identity, Compliance,Security & Compliance Service,Microsoft Azure,Azure Security & Compliance,https://azure.microsoft.com/support/trust-center/
+Security & Identity, Compliance,Security & Compliance Service,Google Cloud Platform,Cloud Security Command Center (Alpha),https://cloud.google.com/security-command-center/
+Security & Identity, Compliance,Security & Compliance Service,IBM Cloud,Security and Compliance Center,https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started
+Security & Identity, Compliance,Security & Compliance Service,Oracle Cloud,Oracle Cloud Infrastructure Compliance Documents,https://docs.oracle.com/en-us/iaas/Content/ComplianceDocuments/Concepts/compliancedocsoverview.htm
+Security & Identity, Compliance,Security & Compliance Service,Alibaba Cloud,Alibaba Truster Center ,https://www.alibabacloud.com/trust-center
+Security & Identity, Compliance,Sensitive Data discovery and protection,AWS,Amazon Macie,https://aws.amazon.com/macie/
+Security & Identity, Compliance,Sensitive Data discovery and protection,Huawei Cloud,Data Security Center,https://www.huaweicloud.com/intl/en-us/product/dsc.html
+Big Data & Advanced Analytics,Big Data Query as a Service,AWS,Amazon Athena,https://aws.amazon.com/athena/
+Big Data & Advanced Analytics,Big Data Query as a Service,AWS,AWS Lake Formation,https://aws.amazon.com/lake-formation/
+Big Data & Advanced Analytics,Big Data Query as a Service,AWS,Amazon HealthLake (Preview),https://aws.amazon.com/healthlake/
+Big Data & Advanced Analytics,Big Data Query as a Service,Microsoft Azure,Azure Data Lake Analytics,https://azure.microsoft.com/services/data-lake-analytics/
+Big Data & Advanced Analytics,Big Data Query as a Service,Google Cloud Platform,BigQuery,https://cloud.google.com/bigquery/
+Big Data & Advanced Analytics,Big Data Query as a Service,IBM Cloud,SQL Query,https://cloud.ibm.com/docs/services/sql-query?topic=sql-query-overview
+Big Data & Advanced Analytics,Big Data Query as a Service,Oracle Cloud,Oracle Big Data SQL Cloud Service,https://www.oracle.com/big-data/big-data-sql/
+Big Data & Advanced Analytics,Big Data Query as a Service,Alibaba Cloud,E-MapReduce Service,https://www.alibabacloud.com/product/e-mapreduce
+Big Data & Advanced Analytics,Big Data Query as a Service,Huawei Cloud,Data Lake Insight,https://www.huaweicloud.com/intl/en-us/product/dli.html
+Big Data & Advanced Analytics,Big Data Managed Cluster as a Service,AWS,Amazon EMR,https://aws.amazon.com/emr/
+Big Data & Advanced Analytics,Big Data Managed Cluster as a Service,Microsoft Azure,Azure HDInsight,https://azure.microsoft.com/services/hdinsight/
+Big Data & Advanced Analytics,Big Data Managed Cluster as a Service,Google Cloud Platform,Cloud DataProc,https://cloud.google.com/dataproc/
+Big Data & Advanced Analytics,Big Data Managed Cluster as a Service,IBM Cloud,Analytics Engine,https://cloud.ibm.com/docs/services/AnalyticsEngine?topic=AnalyticsEngine-IAE-overview
+Big Data & Advanced Analytics,Big Data Managed Cluster as a Service,Oracle Cloud,Oracle Big Data Service,https://www.oracle.com/big-data/big-data-service/
+Big Data & Advanced Analytics,Big Data Managed Cluster as a Service,Alibaba Cloud,E-MapReduce Service,https://www.alibabacloud.com/product/e-mapreduce
+Big Data & Advanced Analytics,Big Data Managed Cluster as a Service,Huawei Cloud,MapReduce Service,https://www.huaweicloud.com/intl/en-us/product/mrs.html
+Big Data & Advanced Analytics,Cloud Search,AWS,Amazon CloudSearch,https://aws.amazon.com/cloudsearch/
+Big Data & Advanced Analytics,Cloud Search,AWS,Amazon Elastic Search Service,https://aws.amazon.com/cloudsearch/
+Big Data & Advanced Analytics,Cloud Search,Microsoft Azure,Azure Search,
+Big Data & Advanced Analytics,Cloud Search,IBM Cloud,Databases for Elasticsearch,https://cloud.ibm.com/catalog/services/databases-for-elasticsearch
+Big Data & Advanced Analytics,Cloud Search,Huawei Cloud,Cloud Search Service,https://www.huaweicloud.com/intl/en-us/product/es.html
+Big Data & Advanced Analytics,Streaming Service,AWS,Amazon Kinesis,https://aws.amazon.com/kinesis/streams/
+Big Data & Advanced Analytics,Streaming Service,AWS,Amazon Kinesis Video Streams,https://aws.amazon.com/blogs/aws/amazon-kinesis-video-streams-serverless-video-ingestion-and-storage-for-vision-enabled-apps/
+Big Data & Advanced Analytics,Streaming Service,Microsoft Azure,Azure Stream Analytics,https://azure.microsoft.com/services/stream-analytics/
+Big Data & Advanced Analytics,Streaming Service,Microsoft Azure,Azure Event Hub,https://azure.microsoft.com/services/stream-analytics/
+Big Data & Advanced Analytics,Streaming Service,Google Cloud Platform,Cloud Dataflow,https://cloud.google.com/dataflow/
+Big Data & Advanced Analytics,Streaming Service,IBM Cloud,Streaming Analytics,https://cloud.ibm.com/docs/services/StreamingAnalytics?topic=StreamingAnalytics-gettingstarted
+Big Data & Advanced Analytics,Streaming Service,IBM Cloud,Event Streams,https://cloud.ibm.com/catalog/services/event-streams
+Big Data & Advanced Analytics,Streaming Service,Oracle Cloud,Oracle Cloud Infrastructure Streaming,https://www.oracle.com/cloud-native/streaming/
+Big Data & Advanced Analytics,Streaming Service,Huawei Cloud,Data Lake Insight [Previous: Cloud Stream Service],https://www.huaweicloud.com/intl/en-us/product/dli.html
+Big Data & Advanced Analytics,Data Warehouse,AWS,Amazon Redshift,https://aws.amazon.com/redshift/
+Big Data & Advanced Analytics,Data Warehouse,Microsoft Azure,Azure SQL Data Warehouse,https://azure.microsoft.com/services/sql-data-warehouse/
+Big Data & Advanced Analytics,Data Warehouse,Google Cloud Platform,BigQuery,https://cloud.google.com/bigquery/
+Big Data & Advanced Analytics,Data Warehouse,IBM Cloud,Db2 Warehouse,https://cloud.ibm.com/catalog/services/db2-warehouse
+Big Data & Advanced Analytics,Data Warehouse,IBM Cloud,Netezza Performance Server,https://cloud.ibm.com/nzsaas/create
+Big Data & Advanced Analytics,Data Warehouse,Oracle Cloud,Oracle Autonomous Data Warehouse,https://www.oracle.com/autonomous-database/autonomous-data-warehouse/
+Big Data & Advanced Analytics,Data Warehouse,Alibaba Cloud,Alibaba MaxCompute ODPS,https://www.alibabacloud.com/product/maxcompute
+Big Data & Advanced Analytics,Data Warehouse,Huawei Cloud,Data Warehouse Service,https://www.huaweicloud.com/intl/en-us/product/dws.html
+Big Data & Advanced Analytics,Business Intelligence & Data Visualization,AWS,Amazon QuickSight,https://quicksight.aws/
+Big Data & Advanced Analytics,Business Intelligence & Data Visualization,Microsoft Azure,PowerBI,https://powerbi.microsoft.com/
+Big Data & Advanced Analytics,Business Intelligence & Data Visualization,Google Cloud Platform,Google Data Studio,https://cloud.google.com/data-studio/
+Big Data & Advanced Analytics,Business Intelligence & Data Visualization,Google Cloud Platform,Looker,https://cloud.google.com/looker
+Big Data & Advanced Analytics,Business Intelligence & Data Visualization,IBM Cloud,Watson studio,https://dataplatform.cloud.ibm.com/docs/content/?context=wdp
+Big Data & Advanced Analytics,Business Intelligence & Data Visualization,IBM Cloud,Watson Query,https://cloud.ibm.com/catalog/services/watson-query
+Big Data & Advanced Analytics,Business Intelligence & Data Visualization,Oracle Cloud,Oracle Analytics Cloud,https://www.oracle.com/business-analytics/analytics-cloud.html
+Big Data & Advanced Analytics,Business Intelligence & Data Visualization,Oracle Cloud,Oracle Data Visualization Cloud Service,https://docs.oracle.com/en/cloud/paas/data-visualization-cloud/index.html
+Big Data & Advanced Analytics,Business Intelligence & Data Visualization,Oracle Cloud,Oracle Business Intelligence Cloud Service,https://docs.oracle.com/en/cloud/paas/bi-cloud/index.html
+Big Data & Advanced Analytics,Business Intelligence & Data Visualization,Alibaba Cloud,Data IDE,https://www.alibabacloud.com/product/ide
+Big Data & Advanced Analytics,Business Intelligence & Data Visualization,Huawei Cloud,Data Lake Visulization,https://www.huaweicloud.com/intl/en-us/product/dlv.html
+Big Data & Advanced Analytics,Cloud ETL,AWS,AWS Data Pipeline,https://aws.amazon.com/datapipeline/
+Big Data & Advanced Analytics,Cloud ETL,AWS,AWS Glue,https://aws.amazon.com/glue/
+Big Data & Advanced Analytics,Cloud ETL,AWS,Amazon Simple Workflow Service (SWF),https://aws.amazon.com/swf/
+Big Data & Advanced Analytics,Cloud ETL,Microsoft Azure,Azure Data Factory,https://azure.microsoft.com/services/data-factory/
+Big Data & Advanced Analytics,Cloud ETL,Microsoft Azure,Azure Data Catalog,https://azure.microsoft.com/services/data-catalog/
+Big Data & Advanced Analytics,Cloud ETL,Microsoft Azure,Logic Apps,https://azure.microsoft.com/services/logic-apps/
+Big Data & Advanced Analytics,Cloud ETL,Google Cloud Platform,Cloud DataPrep,https://cloud.google.com/dataprep/
+Big Data & Advanced Analytics,Cloud ETL,Google Cloud Platform,Cloud Data Fusion,https://cloud.google.com/data-fusion/
+Big Data & Advanced Analytics,Cloud ETL,Google Cloud Platform,Cloud Composer,https://cloud.google.com/composer/
+Big Data & Advanced Analytics,Cloud ETL,IBM Cloud,DataStage,https://www.ibm.com/us-en/marketplace/datastage
+Big Data & Advanced Analytics,Cloud ETL,IBM Cloud,Watson Knowledge Catalog,https://www.ibm.com/cloud/watson-knowledge-catalog
+Big Data & Advanced Analytics,Cloud ETL,Oracle Cloud,Oracle Cloud Infrastructure Data Flow,https://www.oracle.com/big-data/data-flow/
+Big Data & Advanced Analytics,Cloud ETL,Oracle Cloud,Oracle Integration,https://docs.oracle.com/en/cloud/paas/integration-cloud/index.html
+Big Data & Advanced Analytics,Cloud ETL,Oracle Cloud,Data Integrator,https://cloud.oracle.com/en_US/data-integrator
+Big Data & Advanced Analytics,Cloud ETL,Alibaba Cloud,DataWorks,https://www.alibabacloud.com/product/ide
+Big Data & Advanced Analytics,Cloud ETL,Alibaba Cloud,Data Integration,https://www.alibabacloud.com/product/data-integration
+Big Data & Advanced Analytics,Cloud ETL,Huawei Cloud,Data Lake Governance Center,https://www.huaweicloud.com/intl/en-us/product/dayu.html
+Big Data & Advanced Analytics,Third party data exchange,AWS,AWS Data Exchange,https://aws.amazon.com/data-exchange/
+Big Data & Advanced Analytics,Third party data exchange,Microsoft Azure,Azure Data Share,https://docs.microsoft.com/azure/data-share/
+Big Data & Advanced Analytics,Third party data exchange,Google Cloud Platform,Analytics Hub (Preview),https://cloud.google.com/analytics-hub
+Big Data & Advanced Analytics,Data Analytics platform,Microsoft Azure,Azure Databricks,https://azure.microsoft.com/en-us/products/databricks/#overview
+Artificial Intelligence / Machine Learning,Language Processing AI,AWS,Amazon Lex,https://aws.amazon.com/lex/
+Artificial Intelligence / Machine Learning,Language Processing AI,AWS,Amazon Comprehend,https://aws.amazon.com/comprehend/
+Artificial Intelligence / Machine Learning,Language Processing AI,Microsoft Azure,LUIS (Language Understanding Intelligent Service),https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/
+Artificial Intelligence / Machine Learning,Language Processing AI,Microsoft Azure,Azure Bot Service,https://azure.microsoft.com/services/bot-service/
+Artificial Intelligence / Machine Learning,Language Processing AI,Microsoft Azure,Azure Text Analytics,https://docs.microsoft.com/azure/cognitive-services/language-service/
+Artificial Intelligence / Machine Learning,Language Processing AI,Google Cloud Platform,Natural Language API,https://cloud.google.com/natural-language/
+Artificial Intelligence / Machine Learning,Language Processing AI,Google Cloud Platform,Cloud Text-to-Speech (Beta),https://cloud.google.com/text-to-speech/
+Artificial Intelligence / Machine Learning,Language Processing AI,Google Cloud Platform,DialogFlow Enterprise Edition (Beta),https://cloud.google.com/dialogflow-enterprise/
+Artificial Intelligence / Machine Learning,Language Processing AI,IBM Cloud,Natural Language Classifier,https://cloud.ibm.com/docs/services/natural-language-classifier?topic=natural-language-classifier-natural-language-classifier
+Artificial Intelligence / Machine Learning,Language Processing AI,IBM Cloud,Language Translator,https://cloud.ibm.com/docs/services/language-translator?topic=language-translator-gettingstarted
+Artificial Intelligence / Machine Learning,Language Processing AI,IBM Cloud,Watson Assistant,https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started
+Artificial Intelligence / Machine Learning,Language Processing AI,IBM Cloud,Watson Discovery,https://cloud.ibm.com/docs/services/discovery?topic=discovery-getting-started
+Artificial Intelligence / Machine Learning,Language Processing AI,IBM Cloud,Watson Knowledge Studio,https://cloud.ibm.com/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro
+Artificial Intelligence / Machine Learning,Language Processing AI,IBM Cloud, Text to Speech,https://cloud.ibm.com/docs/services/text-to-speech?topic=text-to-speech-gettingStarted
+Artificial Intelligence / Machine Learning,Language Processing AI,IBM Cloud,Personality Insights,https://cloud.ibm.com/docs/services/personality-insights?topic=personality-insights-gettingStarted
+Artificial Intelligence / Machine Learning,Language Processing AI,Huawei Cloud,Conversation Bot Service,https://www.huaweicloud.com/intl/en-us/product/cbsqa.html
+Artificial Intelligence / Machine Learning,Language Processing AI,Huawei Cloud,Natural Language Processing,https://www.huaweicloud.com/product/nlplu.html
+Artificial Intelligence / Machine Learning,Language Processing AI,Huawei Cloud,Text to Speech,https://www.huaweicloud.com/product/tts.html
+Artificial Intelligence / Machine Learning,Language Processing AI,Huawei Cloud,Machine Translation Service,https://www.huaweicloud.com/product/nlpmt.html
+Artificial Intelligence / Machine Learning,Language Processing AI,Huawei Cloud,Knowledge Graph,https://www.huaweicloud.com/product/nlpkg.html
+Artificial Intelligence,Speech Recognition AI,AWS,Amazon Polly,
+Artificial Intelligence,Speech Recognition AI,AWS,Amazon Transcribe,https://aws.amazon.com/transcribe/
+Artificial Intelligence,Speech Recognition AI,AWS,Amazon Translate,https://aws.amazon.com/translate/
+Artificial Intelligence,Speech Recognition AI,Microsoft Azure,Speaker Recognition,https://docs.microsoft.com/azure/cognitive-services/speech-service/speaker-recognition-overview
+Artificial Intelligence,Speech Recognition AI,Microsoft Azure,Speech To Text,https://docs.microsoft.com/azure/cognitive-services/speech-service/index-speech-to-text
+Artificial Intelligence,Speech Recognition AI,Microsoft Azure,Speech Translation,https://docs.microsoft.com/azure/cognitive-services/speech-service/index-speech-translation
+Artificial Intelligence,Speech Recognition AI,Google Cloud Platform,Translation API,https://cloud.google.com/translate/
+Artificial Intelligence,Speech Recognition AI,Google Cloud Platform,Speech API,https://cloud.google.com/speech/
+Artificial Intelligence,Speech Recognition AI,IBM Cloud,Speech to Text,https://cloud.ibm.com/docs/services/speech-to-text?topic=speech-to-text-gettingStarted
+Artificial Intelligence,Speech Recognition AI,Huawei Cloud,ASR,https://www.huaweicloud.com/intl/en-us/product/asr.html
+Artificial Intelligence,Speech Recognition AI,Huawei Cloud,Real-time ASR,https://www.huaweicloud.com/product/rasr.html
+Artificial Intelligence,Speech Recognition AI,Huawei Cloud,ASR Customization,https://www.huaweicloud.com/intl/en-us/product/asrc.html
+Artificial Intelligence,Image Recognition AI,AWS,Amazon Rekognition,
+Artificial Intelligence,Image Recognition AI,Microsoft Azure,Emotion API,https://azure.microsoft.com/services/cognitive-services/emotion/
+Artificial Intelligence,Image Recognition AI,Microsoft Azure,Face API,https://azure.microsoft.com/services/cognitive-services/face/
+Artificial Intelligence,Image Recognition AI,Microsoft Azure,Computer Vision,https://docs.microsoft.com/azure/cognitive-services/computer-vision/
+Artificial Intelligence,Image Recognition AI,Google Cloud Platform,Vision API,
+Artificial Intelligence,Image Recognition AI,Google Cloud Platform,Cloud Video Intelligence,https://cloud.google.com/video-intelligence/
+Artificial Intelligence,Image Recognition AI,IBM Cloud,Visual Recognition,https://cloud.ibm.com/docs/services/visual-recognition?topic=visual-recognition-index
+Artificial Intelligence,Image Recognition AI,Alibaba Cloud,Image Search,https://www.alibabacloud.com/product/imagesearch
+Artificial Intelligence,Image Recognition AI,Huawei Cloud,Image Recognition,https://www.huaweicloud.com/intl/en-us/product/image.html
+Artificial Intelligence,Image Recognition AI,Huawei Cloud,Image Search,https://www.huaweicloud.com/intl/en-us/product/imagesearch.html
+Artificial Intelligence,Image Recognition AI,Huawei Cloud,Image Tagging,https://www.huaweicloud.com/product/imagetagging.html
+Artificial Intelligence,Image Recognition AI,Huawei Cloud,Video Content Tagging,https://www.huaweicloud.com/product/vct.html
+Artificial Intelligence,Image Recognition AI,Huawei Cloud,Video Ingestion Service,https://www.huaweicloud.com/product/vis.html
+Artificial Intelligence,Image Recognition AI,Huawei Cloud,Content Moderation,https://www.huaweicloud.com/intl/en-us/product/moderation.html
+Artificial Intelligence,Image Recognition AI,Huawei Cloud,Celebrity Recognition,https://www.huaweicloud.com/product/roc.html
+Artificial Intelligence,Machine Learning,AWS,Amazon Machine Learning,
+Artificial Intelligence,Machine Learning,AWS,Amazon Sage​Maker,https://aws.amazon.com/sagemaker/
+Artificial Intelligence,Machine Learning,AWS,AWS Neuron,https://aws.amazon.com/machine-learning/neuron/
+Artificial Intelligence,Machine Learning,Microsoft Azure,Azure Machine Learning,https://studio.azureml.net/
+Artificial Intelligence,Machine Learning,Microsoft Azure,Azure Machine Learning Workbench,https://docs.microsoft.com/azure/machine-learning/preview/quickstart-installation
+Artificial Intelligence,Machine Learning,Microsoft Azure,Azure Machine Learning Model Management,https://docs.microsoft.com/azure/machine-learning/preview/model-management-overview
+Artificial Intelligence,Machine Learning,Google Cloud Platform,Cloud DataLab,https://cloud.google.com/datalab/
+Artificial Intelligence,Machine Learning,Google Cloud Platform,Cloud AutoML,https://cloud.google.com/automl/
+Artificial Intelligence,Machine Learning,Google Cloud Platform,Vertex AI,https://cloud.google.com/vertex-ai
+Artificial Intelligence,Machine Learning,IBM Cloud,Machine Learning,https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-overview.html
+Artificial Intelligence,Machine Learning,IBM Cloud,Watson OpenScale,https://cloud.ibm.com/catalog/services/watson-openscale
+Artificial Intelligence,Machine Learning,Oracle Cloud,Oracle Machine Learning,https://www.oracle.com/data-science/machine-learning/
+Artificial Intelligence,Machine Learning,Alibaba Cloud,Machine Learning Platform For AI,https://www.alibabacloud.com/product/machine-learning
+Artificial Intelligence,Machine Learning,Huawei Cloud,ModelArts,https://www.huaweicloud.com/intl/en-us/product/modelarts.html
+Artificial Intelligence / Machine Learning,Machine Learning Frameworks,AWS,TensorFlow on AWS,https://aws.amazon.com/tensorflow/
+Artificial Intelligence / Machine Learning,Machine Learning Frameworks,AWS,PyTorch on AWS,https://aws.amazon.com/pytorch/
+Artificial Intelligence / Machine Learning,Machine Learning Frameworks,AWS,Apache MXNet on AWS,https://aws.amazon.com/mxnet/
+Artificial Intelligence / Machine Learning,Machine Learning Frameworks,Google Cloud Platform,Vertex AI (TensorFlow, PyTorch, XGBoost, Scikit-Learn),https://cloud.google.com/vertex-ai
+Artificial Intelligence / Machine Learning,Business analysis,AWS,Amazon Forecast,https://aws.amazon.com/forecast/
+Artificial Intelligence / Machine Learning,Business analysis,AWS,Amazon Fraud Detector,https://aws.amazon.com/fraud-detector/
+Artificial Intelligence / Machine Learning,Business analysis,AWS,Amazon Lookout for Metrics,https://aws.amazon.com/lookout-for-metrics/
+Artificial Intelligence / Machine Learning,Business analysis,AWS,Amazon Augmented AI (Amazon A2I),https://aws.amazon.com/augmented-ai/
+Artificial Intelligence / Machine Learning,Business analysis,AWS,Amazon Personalize,https://aws.amazon.com/personalize/
+Artificial Intelligence / Machine Learning,Business analysis,Microsoft Azure,Azure Analysis Service,https://docs.microsoft.com/azure/analysis-services/
+Artificial Intelligence / Machine Learning,Business analysis,Microsoft Azure,Azure Metrics Advisor,https://docs.microsoft.com/azure/analysis-services/
+Artificial Intelligence / Machine Learning,Business analysis,Microsoft Azure,Personalize,https://azure.microsoft.com/services/cognitive-services/personalizer/
+Artificial Intelligence / Machine Learning,Business analysis,Google Cloud Platform,Vertex AI (TensorFlow, PyTorch, XGBoost, Scikit-Learn),https://cloud.google.com/vertex-ai
+Artificial Intelligence / Machine Learning,Machine Learning Inference,AWS,Amazon Elastic Inference,https://aws.amazon.com/machine-learning/elastic-inference/
+Artificial Intelligence / Machine Learning,Machine Learning Inference,Google Cloud Platform,Vertex AI Predictions,https://cloud.google.com/vertex-ai
+Artificial Intelligence / Machine Learning,Intelligent Search / Search with ML,AWS,Amazon Kendra,https://aws.amazon.com/kendra/
+Artificial Intelligence / Machine Learning,Intelligent Search / Search with ML,Microsoft Azure,Azure Cognitive Search,https://docs.microsoft.com/azure/search/
+Artificial Intelligence / Machine Learning,Intelligent Search / Search with ML,Google Cloud Platform,Vertex Matching Engine,https://cloud.google.com/vertex-ai/docs/matching-engine
+Mobile Services,Mobile App Development Services,AWS,AWS Mobile Hub,
+Mobile Services,Mobile App Development Services,Microsoft Azure,Azure Mobile Apps,https://azure.microsoft.com/services/app-service/mobile/
+Mobile Services,Mobile App Development Services,Google Cloud Platform,Cloud Mobile App,
+Mobile Services,Mobile App Development Services,IBM Cloud,Mobile Foundation,https://cloud.ibm.com/docs/services/mobilefoundation
+Mobile Services,Mobile App Development Services,Oracle Cloud,Mobile & Chatbots,https://cloud.oracle.com/en_US/mobile/features
+Mobile Services,Mobile App Development Services,Oracle Cloud,Mobile Hub,https://www.oracle.com/application-development/cloud-services/mobile/
+Mobile Services,Mobile App Development Services,Huawei Cloud,ServiceStage-MBaaS,https://www.huaweicloud.com/intl/en-us/product/servicestage.html
+Mobile Services,Web API Management Service,AWS,Amazon API Gateway,https://aws.amazon.com/api-gateway/
+Mobile Services,Web API Management Service,Microsoft Azure,Azure API Management,
+Mobile Services,Web API Management Service,Google Cloud Platform,Cloud Endpoints,
+Mobile Services,Web API Management Service,IBM Cloud,API Connect,https://cloud.ibm.com/docs/services/apiconnect?topic=apiconnect-getting-started
+Mobile Services,Web API Management Service,Oracle Cloud,API Platform,https://www.oracle.com/integration/api-platform/
+Mobile Services,Web API Management Service,Oracle Cloud,Apiary,https://docs.oracle.com/cloud/apiary/index.html
+Mobile Services,Web API Management Service,Alibaba Cloud,API Gateway,https://www.alibabacloud.com/product/api-gateway
+Mobile Services,Web API Management Service,Huawei Cloud,API Gateway,https://www.huaweicloud.com/intl/en-us/product/apig.html
+Mobile Services,Web/Mobile Authentication Services,AWS,Amazon Cognito,
+Mobile Services,Web/Mobile Authentication Services,Microsoft Azure,Azure Active Directory B2C,https://azure.microsoft.com/en-us/services/active-directory/external-identities/b2c/
+Mobile Services,Web/Mobile Authentication Services,Google Cloud Platform,Firebase Authentication,
+Mobile Services,Web/Mobile Authentication Services,IBM Cloud,App ID,https://cloud.ibm.com/catalog/services/app-id
+Mobile Services,Web/Mobile Authentication Services,Oracle Cloud,Mobile Cloud Service,https://cloud.oracle.com/mobile
+Mobile Services,Web/Mobile Authentication Services,Huawei Cloud,ServiceStage-MBaaS,https://www.huaweicloud.com/intl/en-us/product/servicestage.html
+Mobile Services,Consolidated Mgmt of Multiple Cloud Accounts,AWS,Amazon Pinpoint,
+Mobile Services,Consolidated Mgmt of Multiple Cloud Accounts,Microsoft Azure,Azure Mobile Engagement,
+Mobile Services,Consolidated Mgmt of Multiple Cloud Accounts,IBM Cloud,Mobile Foundation,https://cloud.ibm.com/docs/services/mobilefoundation
+Mobile Services,Consolidated Mgmt of Multiple Cloud Accounts,Huawei Cloud,ServiceStage-MBaaS,https://www.huaweicloud.com/intl/en-us/product/servicestage.html
+Automated Cloud Management Service,Managed Cloud Services,AWS,AWS Managed Services,https://aws.amazon.com/managed-services/
+Automated Cloud Management Service,Managed Cloud Services,AWS,AWS Cloud Map,https://aws.amazon.com/cloud-map/
+Mobile Services,Mobile App Testing Service,AWS,AWS Device Farm,
+Mobile Services,Mobile App Testing Service,Microsoft Azure,App Center Test,https://appcenter.ms/
+Mobile Services,Mobile App Testing Service,Google Cloud Platform,Cloud Test Lab,https://firebase.google.com/docs/test-lab/
+Mobile Services,Mobile App Testing Service,Huawei Cloud,MobileTest,https://www.huaweicloud.com/product/mobileapptest.html
+Mobile Services,Mobile App Software Development Toolkit,AWS,AWS Mobile SDK,
+Mobile Services,Mobile App Software Development Toolkit,Microsoft Azure,Azure Mobile SDK,
+Mobile Services,Mobile App Software Development Toolkit,Google Cloud Platform,Cloud Tools for Android Studio,https://cloud.google.com/android-studio/
+Mobile Services,Mobile App Software Development Toolkit,Oracle Cloud,Oracle Visual Builder,https://www.oracle.com/application-development/visual-builder/
+Mobile Services,Application Services,AWS,AWS Step Functions,https://aws.amazon.com/step-functions/
+Mobile Services,Application Services,AWS,Amazon EventBridge,https://aws.amazon.com/eventbridge/
+Mobile Services,Application Services,AWS,Amazon AppFlow,https://aws.amazon.com/appflow/
+Mobile Services,Application Services,AWS,Amazon Managed Workflows for Apache Airflow (MWAA),https://aws.amazon.com/managed-workflows-for-apache-airflow/
+Mobile Services,Application Services,Microsoft Azure,Microsoft Flow,https://flow.microsoft.com/
+Mobile Services,Application Services,Microsoft Azure,Logic Apps,https://azure.microsoft.com/services/logic-apps/
+Mobile Services,Application Services,Microsoft Azure,Azure Functions,https://azure.microsoft.com/services/functions/
+Mobile Services,Application Services,Microsoft Azure,Event Grid,https://azure.microsoft.com/services/event-grid/
+Mobile Services,Application Services,Microsoft Azure,Azure App Service WebJobs,
+Mobile Services,Application Services,Google Cloud Platform,Workflows,https://cloud.google.com/workflows
+Mobile Services,Application Services,Google Cloud Platform,EventArc,https://cloud.google.com/eventarc
+Mobile Services,Application Services,IBM Cloud,IBM Cloud Functions,https://www.ibm.com/cloud/functions
+Mobile Services,Application Services,IBM Cloud,IBM Cloud Code Engine,https://cloud.ibm.com/codeengine
+Mobile Services,Application Services,Oracle Cloud,Oracle Application Express (APEX),https://www.oracle.com/application-development/apex/
+Mobile Services,Application Services,Oracle Cloud,Oracle Visual Builder,https://www.oracle.com/application-development/visual-builder/
+Mobile Services,Application Services,Oracle Cloud,Oracle Visual Builder Studio,https://www.oracle.com/application-development/visual-builder-studio/
+Mobile Services,Mobile App Analytics,AWS,Amazon Pinpoint,https://aws.amazon.com/pinpoint/
+Mobile Services,Mobile App Analytics,Microsoft Azure,Visual Studio App Center,https://azure.microsoft.com/en-us/services/app-center/
+Mobile Services,Mobile App Analytics,Google Cloud Platform,Firebase Analytics,https://firebase.google.com/docs/analytics/
+Mobile Services,Mobile App Analytics,IBM Cloud,Mobile Foundation,https://cloud.ibm.com/docs/services/mobilefoundation
+Mobile Services,Mobile App Analytics,Oracle Cloud,Mobile Cloud Service,https://cloud.oracle.com/mobile
+Mobile Services,Mobile App Analytics,Huawei Cloud,ServiceStage-MBaaS,https://www.huaweicloud.com/intl/en-us/product/servicestage.html
+Application Services,API Management Service,AWS,Amazon API Gateway,
+Application Services,API Management Service,Microsoft Azure,Azure API Management,
+Application Services,API Management Service,Google Cloud Platform,Apigee API Platform,https://cloud.google.com/apigee-api-management/
+Application Services,API Management Service,Google Cloud Platform,API Monitization,https://cloud.google.com/api-monetization/
+Application Services,API Management Service,Google Cloud Platform,API Analytics,https://cloud.google.com/api-analytics/
+Application Services,API Management Service,Google Cloud Platform,Apigee Sense,https://cloud.google.com/apigee-sense/
+Application Services,API Management Service,Google Cloud Platform,Cloud Endpoints,https://cloud.google.com/endpoints/
+Application Services,API Management Service,IBM Cloud,API connect,https://cloud.ibm.com/docs/services/AppConnect?topic=AppConnect-concepts#appconnect
+Application Services,API Management Service,Oracle Cloud,API Platform,https://www.oracle.com/integration/api-platform/
+Application Services,API Management Service,Oracle Cloud,Apiary,https://docs.oracle.com/cloud/apiary/index.html
+Application Services,API Management Service,Alibaba Cloud,API Gateway,https://www.alibabacloud.com/product/api-gateway
+Application Services,API Management Service,Huawei Cloud,API Gateway,https://www.huaweicloud.com/intl/en-us/product/apig.html
+Application Services,Media Transcoders,AWS,AWS Elemental MediaConnect,https://aws.amazon.com/mediaconnect/
+Application Services,Media Transcoders,AWS,AWS Elemental MediaConvert,https://aws.amazon.com/mediaconvert/
+Application Services,Media Transcoders,AWS,AWS Elemental MediaLive,https://aws.amazon.com/medialive/
+Application Services,Media Transcoders,AWS,AWS Elemental MediaPackage,https://aws.amazon.com/mediapackage/
+Application Services,Media Transcoders,AWS,AWS Elemental MediaStore,https://aws.amazon.com/mediastore/
+Application Services,Media Transcoders,AWS,AWS Elemental MediaTailor,https://aws.amazon.com/MediaTailor/
+Application Services,Media Transcoders,AWS,Amazon Kinesis Video Streams,https://aws.amazon.com/kinesis/video-streams/
+Application Services,Media Transcoders,AWS,AWS Elemental Live,https://aws.amazon.com/elemental-live/
+Application Services,Media Transcoders,AWS,AWS Elemental Server,https://aws.amazon.com/elemental-server/
+Application Services,Media Transcoders,AWS,AWS Elemental Conductor,https://aws.amazon.com/elemental-conductor/
+Application Services,Media Transcoders,AWS,AWS Elemental Link,https://aws.amazon.com/medialive/features/link/
+Application Services,Media Transcoders,AWS,AWS Elemental Delta,https://aws.amazon.com/elemental-delta/
+Application Services,Media Transcoders,Microsoft Azure,Azure Media Services,https://azure.microsoft.com/services/media-services
+Application Services,Media Transcoders,Microsoft Azure,Live On Demand Streaming,
+Application Services,Media Transcoders,Microsoft Azure,Azure Media Player,
+Application Services,Media Transcoders,Microsoft Azure,Content Protection,
+Application Services,Media Transcoders,Microsoft Azure,Media Analytics,
+Application Services,Media Transcoders,Google Cloud Platform,Transcoder API,https://cloud.google.com/transcoder
+Application Services,Media Transcoders,IBM Cloud,Digital Transcoding,
+Application Services,Media Transcoders,Alibaba Cloud,ApsaraVideo Live,https://www.alibabacloud.com/product/apsaravideo-for-live
+Application Services,Media Transcoders,Huawei Cloud,Media Processing Center,https://www.huaweicloud.com/en-us/product/mpc.html
+Application Services,Media Transcoders,Huawei Cloud,Video on Demand,https://www.huaweicloud.com/en-us/product/vod.html
+Application Services,Media Transcoders,Huawei Cloud,Live,https://www.huaweicloud.com/en-us/product/live.html
+Application Services,Media Transcoders,Huawei Cloud,Convergent Video Cloud Service,https://www.huaweicloud.com/en-us/product/cvcs.html
+Application Services,Queuing Services,AWS,Amazon Simple Queue Service (SQS),https://aws.amazon.com/sqs/
+Application Services,Queuing Services,AWS,Amazon MQ,https://aws.amazon.com/amazon-mq/
+Application Services,Queuing Services,Microsoft Azure,Azure Web PubSub,https://azure.microsoft.com/en-us/services/web-pubsub/
+Application Services,Queuing Services,Microsoft Azure,Queue Storage,https://azure.microsoft.com/en-us/services/storage/queues/
+Application Services,Queuing Services,Google Cloud Platform,Cloud Pub/Sub,https://cloud.google.com/pubsub
+Application Services,Queuing Services,IBM Cloud,Event Steams,https://cloud.ibm.com/docs/services/EventStreams/index.html#getting_started
+Application Services,Queuing Services,IBM Cloud,Messages for RabbitMQ,https://cloud.ibm.com/databases/messages-for-rabbitmq/create
+Application Services,Queuing Services,Oracle Cloud,Integration,https://cloud.oracle.com/integration
+Application Services,Queuing Services,Oracle Cloud,Messaging,https://cloud.oracle.com/messaging
+Application Services,Queuing Services,Alibaba Cloud,Message Queue,https://www.alibabacloud.com/product/mq?spm=a3c0i.11270126.209577.68.6c8668dctRiorX
+Application Services,Queuing Services,Huawei Cloud,Distributed Message Service,https://www.huaweicloud.com/intl/en-us/product/dms.html
+Application Services,Queuing Services,Huawei Cloud,Distributed Message Service for Kafka,https://www.huaweicloud.com/intl/en-us/product/dmskafka.html
+Application Services,Mobile Analytics,AWS,Amazon Pinpoint,https://aws.amazon.com/pinpoint/
+Application Services,Mobile Analytics,Microsoft Azure,Mobile Engagement,
+Application Services,Mobile Analytics,IBM Cloud,Mobile Foundation,https://cloud.ibm.com/docs/services/mobilefoundation
+Application Services,Mobile Analytics,Huawei Cloud,ServiceStage-MBaaS,https://www.huaweicloud.com/intl/en-us/product/servicestage.html
+Application Services,Email Services,AWS,Amazon SES,https://aws.amazon.com/ses/
+Application Services,Email Services,IBM Cloud,Sendgrid,https://cloud.ibm.com/docs/infrastructure/email-delivery?topic=email-delivery-getting-started
+Application Services,Email Services,Oracle Cloud,Oracle Cloud Infrastructure Email Delivery,https://www.oracle.com/cloud/networking/email-delivery.html
+Application Services,Email Services,Alibaba Cloud,Direct Mail,https://www.alibabacloud.com/product/directmail
+Application Services,Email Services,Huawei Cloud,CoreMail,https://marketplace.huaweicloud.com/intl/product/f4cd8ad7-ecb4-41fe-9706-504315bf5aaa
+Application Services,Notification Services,AWS,Amazon SNS,https://aws.amazon.com/sns/
+Application Services,Notification Services,Microsoft Azure,Notification Hubs,https://azure.microsoft.com/en-us/services/notification-hubs/
+Application Services,Notification Services,Google Cloud Platform,Firebase Cloud Messaging,https://firebase.google.com/docs/cloud-messaging/
+Application Services,Notification Services,IBM Cloud,Push Notifications,https://cloud.ibm.com/docs/services/mobilepush?topic=mobile-pushnotification-getting-started
+Application Services,Notification Services,Oracle Cloud,Oracle Cloud Infrastructure Notifications,https://www.oracle.com/devops/notifications/
+Application Services,Notification Services,Alibaba Cloud,Short Message Service (SMS),https://www.alibabacloud.com/product/short-message-service
+Application Services,Notification Services,Huawei Cloud,Simple Message Notification (SMN),https://www.huaweicloud.com/intl/en-us/product/smn.html
+Application Services,Notification Services,Huawei Cloud,Message&SMS (MSGSMS),https://www.huaweicloud.com/intl/en-us/product/msgsms.html
+Application Services,Blockchain Services,AWS,Amazon Managed Blockchain,https://aws.amazon.com/managed-blockchain/
+Application Services,Blockchain Services,AWS,Amazon Quantum Ledger Database (QLDB),https://aws.amazon.com/qldb/
+Application Services,Blockchain Services,Microsoft Azure,Blockchain,https://azure.microsoft.com/solutions/blockchain/
+Application Services,Blockchain Services,Microsoft Azure,Blockchain Workbench,https://azure.microsoft.com/features/blockchain-workbench/
+Application Services,Blockchain Services,Microsoft Azure,Azure Blockchain Tokens,https://azure.microsoft.com/services/blockchain-tokens/
+Application Services,Blockchain Services,IBM Cloud,Blockchain Platform,https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-ibp-console-overview#ibp-console-overview
+Application Services,Blockchain Services,IBM Cloud,Quantum Services,https://cloud.ibm.com/quantum
+Application Services,Blockchain Services,Oracle Cloud,Oracle Blockchain,https://www.oracle.com/blockchain/
+Application Services,Blockchain Services,Alibaba Cloud,Blockchain as a Service,https://www.alibabacloud.com/products/baas
+Application Services,Blockchain Services,Huawei Cloud,Blockchain Service,https://www.huaweicloud.com/intl/en-us/product/bcs.html
+Application Services,Chatbot,AWS,Amazon Lex,https://aws.amazon.com/lex/
+Application Services,Chatbot,AWS,AWS Chatbot,https://aws.amazon.com/chatbot/
+Application Services,Chatbot,AWS,Alexa for Business,https://aws.amazon.com/alexaforbusiness/
+Application Services,Chatbot,Microsoft Azure,Azure Bot Service,https://azure.microsoft.com/services/bot-service/
+Application Services,Chatbot,Google Cloud Platform,Dialogflow,https://dialogflow.com/
+Application Services,Chatbot,IBM Cloud,Watson Assistant,https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started
+Application Services,Chatbot,Oracle Cloud,Oracle Digital Assistant,https://www.oracle.com/chatbots/
+Application Services,Chatbot,Alibaba Cloud,Intelligent Service Robot,https://www.alibabacloud.com/product/bot
+Business Productivity,Office Document Solutions,AWS,Amazon WorkDocs,https://aws.amazon.com/workdocs/
+Business Productivity,Office Document Solutions,AWS,Amazon WorkMail,https://aws.amazon.com/workmail/
+Business Productivity,Office Document Solutions,AWS,Amazon WorkSpaces,https://aws.amazon.com/workspaces/
+Business Productivity,Office Document Solutions,AWS,Amazon WorkLink,https://aws.amazon.com/worklink/
+Business Productivity,Office Document Solutions,Microsoft Azure,Microsoft Office 365,
+Business Productivity,Office Document Solutions,Google Cloud Platform,Google Workspace,https://workspace.google.com/
+Business Productivity,Office Document Solutions,Huawei Cloud,WPS,https://marketplace.huaweicloud.com/intl/product/00301-107037-0--0
+Business Productivity,Desktop Application Streaming,AWS,Amazon AppStream 2.0,https://aws.amazon.com/appstream2/
+Business Productivity,Desktop Application Streaming,AWS,NICE DCV,https://aws.amazon.com/hpc/dcv/
+Business Productivity,Desktop Application Streaming,Huawei Cloud,Workspace,
+Business Productivity,Communications Service,AWS,Amazon Chime,https://aws.amazon.com/chime/
+Business Productivity,Communications Service,AWS,Amazon Connect,https://aws.amazon.com/connect/
+Business Productivity,Communications Service,Microsoft Azure,Azure Communications Services,https://azure.microsoft.com/services/communication-services/
+Business Productivity,Communications Service,Huawei Cloud,Workspace,
+Software MarketPlace,Cloud Marketplace,AWS,AWS Marketplace,https://aws.amazon.com/marketplace
+Software MarketPlace,Cloud Marketplace,Microsoft Azure,Azure MarketPlace,https://azuremarketplace.microsoft.com/marketplace/apps
+Software MarketPlace,Cloud Marketplace,Google Cloud Platform,MarketPlace,https://cloud.google.com/marketplace
+Software MarketPlace,Cloud Marketplace,IBM Cloud,IBM Cloud Partner Center,https://cloud.ibm.com/partner-center
+Software MarketPlace,Cloud Marketplace,Oracle Cloud,Oracle Cloud Market Place,https://cloudmarketplace.oracle.com/
+Software MarketPlace,Cloud Marketplace,Alibaba Cloud,Alibaba Cloud Marketplace,https://www.alibabacloud.com/marketplace
+Software MarketPlace,Cloud Marketplace,Huawei Cloud,Huawei Cloud Marketplace,https://marketplace.huaweicloud.com/intl/
+Internet of Things,IoT Platform,AWS,AWS IoT Platform,https://aws.amazon.com/iot/
+Internet of Things,IoT Platform,Microsoft Azure,Azure IoT Platform,https://azure.microsoft.com/overview/iot/
+Internet of Things,IoT Platform,Microsoft Azure,Azure IoT Hub,https://azure.microsoft.com/services/iot-hub/
+Internet of Things,IoT Platform,Google Cloud Platform,Cloud IoT Core (Beta),https://cloud.google.com/iot-core/
+Internet of Things,IoT Platform,Google Cloud Platform,Google Cloud IoT,https://cloud.google.com/solutions/iot/
+Internet of Things,IoT Platform,IBM Cloud,Internet of Things Platform,https://cloud.ibm.com/docs/services/IoT/getting-started.html
+Internet of Things,IoT Platform,IBM Cloud,Node-Red,https://cloud.ibm.com/developer/appservice/create-app?starterKit=59c9d5bd-4d31-3611-897a-f94eea80dc9f&defaultLanguage=undefined
+Internet of Things,IoT Platform,Oracle Cloud,Internet of Things Cloud Service,https://cloud.oracle.com/en_US/iot
+Internet of Things,IoT Platform,Alibaba Cloud,IoT Platform,https://www.alibabacloud.com/product/iot
+Internet of Things,IoT Platform,Huawei Cloud,HUAWEI CLOUD IoT,https://www.huaweicloud.com/product/iot.html
+Internet of Things,IoT Platform,Huawei Cloud,HUAWEI CLOUD IoT Device Access,https://www.huaweicloud.com/product/iothub.html
+Internet of Things,IoT Platform,Huawei Cloud,HUAWEI CLOUD IoT Edge,https://www.huaweicloud.com/product/iotedge.html
+Internet of Things,IoT Platform,Huawei Cloud,HUAWEI CLOUD IoT Global SIM Link,https://www.huaweicloud.com/product/globalsimlink.html
+Internet of Things,IoT Development Solutions,AWS,AWS Greengrass,https://aws.amazon.com/greengrass/
+Internet of Things,IoT Development Solutions,Microsoft Azure,Azure IoT SDK,
+Internet of Things,IoT Development Solutions,Microsoft Azure,Azure IoT Edge,https://azure.microsoft.com/blog/microsoft-launches-azure-iot-technical-training-developers-can-start-quickly-with-iot/
+Internet of Things,IoT Development Solutions,IBM Cloud,Internet of Things Platform,https://cloud.ibm.com/docs/services/IoT/getting-started.html
+Internet of Things,IoT Development Solutions,Huawei Cloud,HUAWEI Cloud IoT Edge,https://www.huaweicloud.com/product/iotedge.html
+Internet of Things,IoT Development Solutions,Huawei Cloud,HUAWEI Cloud IoT LiteOS,https://www.huaweicloud.com/product/liteos.html
+Internet of Things,IoT Development Solutions,Huawei Cloud,HUAWEI Cloud IoT Stage,https://www.huaweicloud.com/product/iotstage.html
+Internet of Things,IoT Analysis,Huawei Cloud,HUAWEI Cloud IoT Analysis,https://www.huaweicloud.com/product/iotanalytics-platform.html
+Internet of Things,IoT Hardware,AWS,AWS IoT Button,https://aws.amazon.com/iotbutton/
+Internet of Things,IoT Hardware,Microsoft Azure,Azure Sphere,https://azure.microsoft.com/services/azure-sphere/
+Game Development,Game Development,AWS,Amazon Lumberyard,
+Game Development,Game Development,Microsoft Azure,Visual Studio,
+Game Development,Game Development,IBM Cloud,Watson Unity SDK,https://developer.ibm.com/open/projects/watson-developer-cloud-unity-sdk/
+Robotics Development,Robotics Development,AWS,AWS RoboMaker,https://aws.amazon.com/robomaker/
+Development & Testing,Development & Testing,AWS,AWS Dev/Test,
+Development & Testing,Development & Testing,Microsoft Azure,Azure Dev/Test,https://azure.microsoft.com/services/devtest-lab/
+Development & Testing,Development & Testing,Oracle Cloud,Oracle Visual Builder Studio,https://www.oracle.com/application-development/visual-builder-studio/
