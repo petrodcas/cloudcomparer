@@ -177,7 +177,7 @@ param (
     imposible y se opta por esta forma aunque dificulte la lectura y el mantenimiento. #>
     [ValidateScript(
         {
-            $platforms=Get-Content ".\clouds.csv" -Raw | ConvertFrom-Csv | Select-Object -Unique Platform | ForEach-Object { $_.Platform }
+            $platforms=Get-Content $(Join-Path $(([System.IO.FileInfo]($PSCommandPath | Convert-Path)).DirectoryName) 'clouds.csv') -Raw | ConvertFrom-Csv | Select-Object -Unique Platform | ForEach-Object { $_.Platform }
             "$_" -in $platforms
         },
         ErrorMessage="Specify a valid csv file"
@@ -185,7 +185,7 @@ param (
     [ArgumentCompleter(
         {
             param($cmd, $param, $wordToComplete)
-            $platforms=Get-Content ".\clouds.csv" -Raw | ConvertFrom-Csv | Select-Object -Unique Platform | ForEach-Object { $_.Platform }
+            $platforms=Get-Content $(Join-Path $(([System.IO.FileInfo]($PSCommandPath | Convert-Path)).DirectoryName) 'clouds.csv') -Raw | ConvertFrom-Csv | Select-Object -Unique Platform | ForEach-Object { $_.Platform }
             if ($wordToComplete[0] -eq "`'" ) {
                 $wordToComplete=$wordToComplete.substring(1)
                 $wordToComplete=$wordToComplete.substring(0,$wordToComplete.Length-1)
@@ -205,7 +205,7 @@ param (
     [string]$Platform,
     [ValidateScript(
         {
-            $categories=Get-Content ".\clouds.csv" -Raw | ConvertFrom-Csv | Select-Object -Unique Category | ForEach-Object { $_.Category }
+            $categories=Get-Content $(Join-Path $(([System.IO.FileInfo]($PSCommandPath | Convert-Path)).DirectoryName) 'clouds.csv') -Raw | ConvertFrom-Csv | Select-Object -Unique Category | ForEach-Object { $_.Category }
             "$_" -in $categories
         },
         ErrorMessage="Specify a valid csv file."
@@ -213,7 +213,7 @@ param (
     [ArgumentCompleter(
         {
             param($cmd, $param, $wordToComplete)
-            $categories=Get-Content ".\clouds.csv" -Raw | ConvertFrom-Csv | Select-Object -Unique Category | ForEach-Object { $_.Category }
+            $categories=Get-Content $(Join-Path $(([System.IO.FileInfo]($PSCommandPath | Convert-Path)).DirectoryName) 'clouds.csv') -Raw | ConvertFrom-Csv | Select-Object -Unique Category | ForEach-Object { $_.Category }
             if ($wordToComplete[0] -eq "`'" ) {
                 $wordToComplete=$wordToComplete.substring(1)
                 $wordToComplete=$wordToComplete.substring(0,$wordToComplete.Length-1)
@@ -232,7 +232,7 @@ param (
     [string]$Category,
     [ValidateScript(
         {
-            $services=Get-Content ".\clouds.csv" -Raw | ConvertFrom-Csv | Select-Object -Unique Service | ForEach-Object { $_.Service }
+            $services=Get-Content $(Join-Path $(([System.IO.FileInfo]($PSCommandPath | Convert-Path)).DirectoryName) 'clouds.csv') -Raw | ConvertFrom-Csv | Select-Object -Unique Service | ForEach-Object { $_.Service }
             "$_" -in $services
         },
         ErrorMessage="Specify a valid csv file."
@@ -240,7 +240,7 @@ param (
     [ArgumentCompleter(
         {
             param($cmd, $param, $wordToComplete)
-            $services=Get-Content ".\clouds.csv" -Raw | ConvertFrom-Csv | Select-Object -Unique Service | ForEach-Object { $_.Service }
+            $services=Get-Content $(Join-Path $(([System.IO.FileInfo]($PSCommandPath | Convert-Path)).DirectoryName) 'clouds.csv') -Raw | ConvertFrom-Csv | Select-Object -Unique Service | ForEach-Object { $_.Service }
             if ($wordToComplete[0] -eq "`'" ) {
                 $wordToComplete=$wordToComplete.substring(1)
                 $wordToComplete=$wordToComplete.substring(0,$wordToComplete.Length-1)
@@ -259,7 +259,7 @@ param (
     [string]$Service,
     [ValidateScript(
         {
-            $solutions=Get-Content ".\clouds.csv" -Raw | ConvertFrom-Csv | Select-Object -Unique Solution | ForEach-Object { $_.Solution }
+            $solutions=Get-Content $(Join-Path $(([System.IO.FileInfo]($PSCommandPath | Convert-Path)).DirectoryName) 'clouds.csv') -Raw | ConvertFrom-Csv | Select-Object -Unique Solution | ForEach-Object { $_.Solution }
             "$_" -in $solutions
         },
         ErrorMessage="Specify a valid csv file."
@@ -267,7 +267,7 @@ param (
     [ArgumentCompleter(
         {
             param($cmd, $param, $wordToComplete)
-            $solutions=Get-Content ".\clouds.csv" -Raw | ConvertFrom-Csv | Select-Object -Unique Solution | ForEach-Object { $_.Solution }
+            $solutions=Get-Content $(Join-Path $(([System.IO.FileInfo]($PSCommandPath | Convert-Path)).DirectoryName) 'clouds.csv') -Raw | ConvertFrom-Csv | Select-Object -Unique Solution | ForEach-Object { $_.Solution }
             if ($wordToComplete[0] -eq "`'" ) {
                 $wordToComplete=$wordToComplete.substring(1)
                 $wordToComplete=$wordToComplete.substring(0,$wordToComplete.Length-1)
@@ -302,7 +302,7 @@ param (
 )
 
 [string]$usedParameterSet=$PSCmdlet.ParameterSetName
-[string]$csvfile=".\clouds.csv"
+[string]$csvfile=$(Join-Path $(([System.IO.FileInfo]($PSCommandPath | Convert-Path)).DirectoryName) 'clouds.csv')
 
 
 function Get-PlatformDetails {
@@ -481,7 +481,7 @@ switch ($usedParameterSet) {
     }
     Default {
         # Write-Error "An error ocurred: Unknown query."
-        Get-Content -Raw '.\clouds.csv' | ConvertFrom-Csv | Format-AsTableIfNeeded
+        Get-Content -Raw $csvfile | ConvertFrom-Csv | Format-AsTableIfNeeded
     }
 }
 
